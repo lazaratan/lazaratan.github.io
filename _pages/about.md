@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Toronto</a> ~ <a href='#'>Vector Institute</a>
+subtitle: <a href='https://www.utoronto.ca/'>University of Toronto</a> ~ <a href='https://vectorinstitute.ai/'>Vector Institute</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: laz_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: #>
+    #<p>555 your office number</p>
+    #<p>123 your address street</p>
+    #<p>Your City, State 12345</p>
 
 social: true # includes social icons at the bottom of the page
 news: false # includes a list of news items

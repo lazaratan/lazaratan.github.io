@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 
+description: For the most up to date list of publications see my Google Scholar.
 nav: true
 nav_order: 2
 ---

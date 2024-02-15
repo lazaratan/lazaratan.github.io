@@ -1,6 +1,6 @@
 ---
-layout: archive-tag
-permalink: /cv/
+layout: cv
+permalink: /
 title: CV
 nav: false
 nav_order: 5

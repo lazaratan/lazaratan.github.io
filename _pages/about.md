@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.utoronto.ca/'>University of Toronto</a> ~ <a href='https://vectorinstitute.ai/'>Vector Institute</a>
 

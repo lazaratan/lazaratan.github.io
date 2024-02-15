@@ -1,9 +1,6 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"NeurIPS":
+  url: https://papers.nips.cc/
   color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
 
 "arXiv":
   url: https://arxiv.org/

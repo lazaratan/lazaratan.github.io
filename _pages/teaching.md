@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-# Teaching Assistant
+### Teaching Assistant
 
 ECE 244 - Programming Fundamentals, Fall 2022 (UofT) 
 

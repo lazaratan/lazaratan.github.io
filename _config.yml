@@ -294,7 +294,7 @@ scholar:
   last_name: [Atanackovic]
   first_name: [Lazar]
 
-  style: mla
+  style: apa
   locale: en
 
   source: /_bibliography/

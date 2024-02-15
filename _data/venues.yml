@@ -4,11 +4,15 @@
 
 "AISTATS":
   url: https://aistats.org/aistats2024/
-  color: "#64fab4"
+  color: "#bee3c6"
 
 "Bioinformatics":
   url: https://academic.oup.com/bioinformatics
   color: "#2b2b2b"
+
+"MLCB":
+  url: https://sites.google.com/cs.washington.edu/mlcb2023/
+  color: "#a1a391"
 
 "arXiv":
   url: https://arxiv.org/
@@ -20,4 +24,8 @@
 
 "ISPLC":
   url: https://www.ieee-isplc.org/
+  color: "#a3b6f9"
+
+"IEEE OCEANS":
+  url: https://www.oceansconference.org/
   color: "#a3b6f9"

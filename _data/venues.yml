@@ -1,10 +1,10 @@
 "NeurIPS":
   url: https://papers.nips.cc/
-  color: "#00369f"
+  color: "#ffe4e1"
 
 "AISTATS":
   url: https://aistats.org/aistats2024/
-  color: "#ff6600"
+  color: "#64fab4"
 
 "Bioinformatics":
   url: https://academic.oup.com/bioinformatics
@@ -12,4 +12,12 @@
 
 "arXiv":
   url: https://arxiv.org/
-  color: "#b31b1b"
+  color: "#860b35"
+
+"IEEE Access":
+  url: https://ieeeaccess.ieee.org/
+  color: "#a3b6f9"
+
+"ISPLC":
+  url: https://www.ieee-isplc.org/
+  color: "#a3b6f9"

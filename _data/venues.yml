@@ -6,6 +6,10 @@
   url: https://aistats.org/aistats2024/
   color: "#bee3c6"
 
+"ICML":
+  url: https://icml.cc/
+  color: "#21046B"
+
 "Bioinformatics":
   url: https://academic.oup.com/bioinformatics
   color: "#2b2b2b"

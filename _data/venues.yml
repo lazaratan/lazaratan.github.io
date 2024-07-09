@@ -22,6 +22,10 @@
   url: https://arxiv.org/
   color: "#860b35"
 
+"OpenReview":
+  url: https://openreview.net/
+  color: "#bd1919 "
+
 "IEEE Access":
   url: https://ieeeaccess.ieee.org/
   color: "#115579"

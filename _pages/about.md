@@ -22,3 +22,26 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 I am a member of the <a href='https://psi.toronto.edu/'>Probabilistic and Statistical Inference Group</a> supervised by <a href='https://psi.toronto.edu/~frey/'>Brendan Frey</a> and co-supervised by <a href='https://wanglab.ai/people.html'>Bo Wang</a>. Previously, I was a machine learning research intern at <a href='https://www.recursion.com/'>Recursion Pharmaceuticals</a> / <a href='https://www.valencelabs.com/'>Valence Labs</a> and a research intern at <a href='https://mila.quebec/en/'>MILA</a>.
 
 My research focus is in developing machine learning methods for deciphering and modelling cell dynamics from data. I am interested in generative modelling, dynamical systems, structure learning / causal discovery, and computational biology.
+
+
+## My Pinned GitHub Repositories
+
+### GitHub Users
+
+{% if site.data.repositories.github_users %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for user in site.data.repositories.github_users %}
+    {% include repository/repo_user.liquid username=user %}
+  {% endfor %}
+</div>
+{% endif %}
+
+### GitHub Repositories
+
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}

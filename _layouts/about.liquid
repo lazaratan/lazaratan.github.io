@@ -55,7 +55,7 @@ layout: default
     </h2>
     <div class="repositories d-flex flex-wrap justify-content-start" style="gap: 1px;">
         {% for repo in site.data.repositories.github_repos %}
-        <div style="width: calc(50% - 1px); box-sizing: border-box; margin-bottom: 5px;">
+        <div style="width: calc(60% - 1px); box-sizing: border-box; margin-bottom: 5px;">
             {% include repository/repo.liquid repository=repo %}
         </div>
         {% endfor %}

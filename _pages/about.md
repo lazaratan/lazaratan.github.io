@@ -27,9 +27,9 @@ My research focus is in developing machine learning methods for deciphering and 
 ### Repositories
 
 {% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap justify-content-between align-items-start" style="gap: 30px;">
+<div class="repositories d-flex flex-wrap justify-content-between align-items-start">
   {% for repo in site.data.repositories.github_repos %}
-    <div style="flex: 1 1 calc(100% - 30px); box-sizing: border-box; margin-bottom: 30px;">
+    <div style="flex: 1 1 calc(100.0% - 40px); margin-bottom: 20px;">
       {% include repository/repo.liquid repository=repo %}
     </div>
   {% endfor %}

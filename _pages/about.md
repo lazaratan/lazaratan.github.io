@@ -24,24 +24,14 @@ I am a member of the <a href='https://psi.toronto.edu/'>Probabilistic and Statis
 My research focus is in developing machine learning methods for deciphering and modelling cell dynamics from data. I am interested in generative modelling, dynamical systems, structure learning / causal discovery, and computational biology.
 
 
-## My Pinned GitHub Repositories
-
-### GitHub Users
-
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-{% endif %}
-
-### GitHub Repositories
+### Repositories
 
 {% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repositories d-flex flex-wrap justify-content-between align-items-start">
   {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
+    <div style="flex: 1 1 calc(33.333% - 20px); margin-bottom: 20px;">
+      {% include repository/repo.liquid repository=repo %}
+    </div>
   {% endfor %}
 </div>
 {% endif %}

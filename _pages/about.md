@@ -16,12 +16,17 @@ profile:
 social: true # includes social icons at the bottom of the page
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: False # includes a list of papers marked as "selected={true}"
 ---
 
 I am a member of the <a href='https://psi.toronto.edu/'>Probabilistic and Statistical Inference Group</a> supervised by <a href='https://psi.toronto.edu/~frey/'>Brendan Frey</a> and co-supervised by <a href='https://wanglab.ai/people.html'>Bo Wang</a>. Previously, I was a machine learning research intern at <a href='https://www.recursion.com/'>Recursion Pharmaceuticals</a> / <a href='https://www.valencelabs.com/'>Valence Labs</a> and a research intern at <a href='https://mila.quebec/en/'>MILA</a>.
 
 My research focus is in developing machine learning methods for deciphering and modelling cell dynamics from data. I am interested in generative modelling, dynamical systems, structure learning / causal discovery, and computational biology.
+
+
+### Selected Publications
+
+{% include papers_selected.html %}
 
 
 ### Repositories

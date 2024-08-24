@@ -53,9 +53,9 @@ layout: default
     <h2>
         <a href="https://github.com/{{ site.github_username }}" style="color: inherit">Repositories</a>
     </h2>
-    <div class="repositories d-flex flex-wrap justify-content-start" style="gap: 10px;">
+    <div class="repositories d-flex flex-wrap justify-content-start" style="gap: 1px;">
         {% for repo in site.data.repositories.github_repos %}
-        <div style="width: calc(50% - 5px); box-sizing: border-box; margin-bottom: 20px;">
+        <div style="width: calc(50% - 1px); box-sizing: border-box; margin-bottom: 5px;">
             {% include repository/repo.liquid repository=repo %}
         </div>
         {% endfor %}

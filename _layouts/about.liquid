@@ -48,6 +48,8 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    </div>
+
     <!-- GitHub Repositories -->
     {% if site.data.repositories.github_repos %}
     <h2>
@@ -55,7 +57,7 @@ layout: default
     </h2>
     <div class="repositories d-flex flex-wrap justify-content-start" style="gap: 5px;">
         {% for repo in site.data.repositories.github_repos %}
-        <div style="flex: 1 1 50%; max-width: 80%; box-sizing: border-box; margin-bottom: 5px;">
+        <div style="flex: 1 1 100%; max-width: 80%; box-sizing: border-box; margin-bottom: 5px;">
             {% include repository/repo.liquid repository=repo %}
         </div>
         {% endfor %}

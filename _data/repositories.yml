@@ -5,6 +5,7 @@ github_users:
 
 github_repos:
   - lazaratan/dyn-gfn
+  - lazaratan/meta-flow-matching
   - lazaratan/gflownet-generalization
   - recursionpharma/gflownet
   #- alshedivat/al-folio

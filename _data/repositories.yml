@@ -6,8 +6,8 @@ github_users:
   #- alshedivat
 
 github_repos:
-  - lazaratan/dyn-gfn
   - lazaratan/meta-flow-matching
+  - lazaratan/dyn-gfn
   - lazaratan/gflownet-generalization
   - recursionpharma/gflownet
   #- alshedivat/al-folio

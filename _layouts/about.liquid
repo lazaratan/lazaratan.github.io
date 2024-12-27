@@ -55,19 +55,20 @@ layout: default
     <h2>Invited Talks</h2>
     <ul class="talks-list">
         {% for talk in site.data.talks %}
-        <li class="talk-item">
-            <!-- Title as clickable link -->
-            <h3 style="font-size: 1.1rem;">
-            <a href="{{ talk.url }}" target="_blank" class="talk-title" style="font-size: inherit; text-decoration: none;">
-                {{ talk.title }}
-            </a>
+        <li class="talk-item" style="font-size: 1rem; margin-bottom: 1rem;">
+            <!-- Title as clickable link, only if url is not blank -->
+            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">
+            {% if talk.url %}
+                <a href="{{ talk.url }}" target="_blank" class="talk-title" style="color: inherit; text-decoration: none;">{{ talk.title }}</a>
+            {% else %}
+                <span class="no-link" style="color: #999;">{{ talk.title }}</span>
+            {% endif %}
             </h3>
-            
+
             <!-- Venue as clickable link and year under the title -->
-            <p class="venue-year" style="font-size: 1rem;">
-            <a href="{{ talk.venue_url }}" target="_blank" class="venue-link" style="font-size: inherit; color: #28a745; text-decoration: none;">
-                {{ talk.conference }}
-            </a> - <span style="font-size: 0.9rem; color: #555;">{{ talk.year }}</span>
+            <p class="venue-year" style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem;">
+            <a href="{{ talk.venue_url }}" target="_blank" class="venue-link" style="color: #28a745; text-decoration: none;">{{ talk.conference }}</a> 
+            <span style="color: #aaa;">- {{ talk.year }}</span>
             </p>
         </li>
         {% endfor %}

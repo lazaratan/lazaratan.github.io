@@ -1,3 +1,8 @@
+{% if site.cv_url %}
+  <a href="{{ site.cv_url }}" target="_blank" title="CV">
+    <i class="fa-solid fa-file-alt"></i> CV
+  </a>
+{% endif %}
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}

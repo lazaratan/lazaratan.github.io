@@ -48,28 +48,34 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Divider after Repositories -->
+    <hr class="section-divider">
+
     {% if page.invited_talks %}
     <h2>Invited Talks</h2>
     <ul class="talks-list">
         {% for talk in site.data.talks %}
         <li class="talk-item">
-            <!-- Title as clickable link -->
-            <h3 style="font-size: 1.2rem;">
-            <a href="{{ talk.url }}" target="_blank" class="talk-title" style="font-size: inherit; text-decoration: none;">
+            <!-- Title as clickable link, only if url is not blank -->
+            <h3>
+            {% if talk.url %}
+                <a href="{{ talk.url }}" target="_blank" class="talk-title">{{ talk.title }}</a>
+            {% else %}
                 {{ talk.title }}
-            </a>
+            {% endif %}
             </h3>
             
             <!-- Venue as clickable link and year under the title -->
-            <p class="venue-year" style="font-size: 1rem;">
-            <a href="{{ talk.venue_url }}" target="_blank" class="venue-link" style="font-size: inherit; color: #28a745; text-decoration: none;">
-                {{ talk.conference }}
-            </a> - <span style="font-size: 0.9rem; color: #555;">{{ talk.year }}</span>
+            <p class="venue-year">
+            <a href="{{ talk.venue_url }}" target="_blank" class="venue-link">{{ talk.conference }}</a> - {{ talk.year }}
             </p>
         </li>
         {% endfor %}
     </ul>
     {% endif %}
+
+    <!-- Divider after Repositories -->
+    <hr class="section-divider">
     
     <!-- GitHub Repositories -->
     {% if site.data.repositories.github_repos %}
@@ -84,6 +90,9 @@ layout: default
         {% endfor %}
     </div>
     {% endif %}
+
+    <!-- Divider after Repositories -->
+    <hr class="section-divider">
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}

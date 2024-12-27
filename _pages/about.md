@@ -28,7 +28,7 @@ My research focuses on developing machine learning methods for deciphering and m
 ## Invited Talks
 
 - **[Meta Flow Matching (MFM)](https://www.youtube.com/watch?v=-4Av5IEc_Wc)**  
-  [Learning on Graphs and Geometry, 2024  ](https://portal.valencelabs.com/logg) 
+  [Learning on Graphs and Geometry, 2024](https://portal.valencelabs.com/logg) 
 
 - **DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets**  
   [Helmholtz AI Conference, 2024 ](https://haicon24.de/)  

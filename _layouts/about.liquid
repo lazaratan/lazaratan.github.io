@@ -48,6 +48,13 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Invited Talks -->
+    {% if page.talks %}
+      <h2>
+        <a href="{{ '/talks/' | relative_url }}" style="color: inherit">Talks</a>
+      </h2>
+    {% endif %}
+
     <!-- GitHub Repositories -->
     {% if site.data.repositories.github_repos %}
     <h2>

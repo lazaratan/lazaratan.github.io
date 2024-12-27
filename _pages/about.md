@@ -7,7 +7,7 @@ subtitle: I am a Ph.D. Candidate at the <a href='https://www.utoronto.ca/'>Unive
 profile:
   align: centre
   image: laz_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: l.atanackovic@mail.utoronto.ca
     #<p>555 your office number</p>
     #<p>123 your address street</p>
@@ -26,6 +26,15 @@ My research focuses on developing machine learning methods for deciphering and m
 Feel free to contact me for collaborations or if you have any questions about my work!
 
 ---
+
+### Selected Publications
+{% for paper in site.selected_papers %}
+  <p><strong>{{ paper.title }}</strong></p>
+  <p>{{ paper.authors }} - <a href="{{ paper.url }}">Read More</a></p>
+{% endfor %}
+
+---
+
 ### Invited Talks
 
 - **[Meta Flow Matching (MFM)](https://www.youtube.com/watch?v=-4Av5IEc_Wc)**  

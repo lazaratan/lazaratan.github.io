@@ -25,15 +25,18 @@ My research focuses on developing machine learning methods for deciphering and m
 
 Feel free to contact me for collaborations or if you have any questions about my work!
 
----
-
 ### Selected Publications
-{% for paper in site.bib %}
-  {% if paper.selected == true %}
-    <p><strong>{{ paper.title }}</strong></p>
-    <p>{{ paper.author }} - <a href="{{ paper.url }}">Read More</a></p>
-  {% endif %}
-{% endfor %}
+
+<div class="publications">
+  {% for paper in site.bib %}
+    {% if paper.selected == true %}
+      <div class="publication">
+        <p><strong>{{ paper.title }}</strong></p>
+        <p>{{ paper.author }} - <a href="{{ paper.url }}" target="_blank">Read More</a></p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
 ---
 

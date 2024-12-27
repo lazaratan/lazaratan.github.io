@@ -59,7 +59,7 @@ layout: default
                 <!-- Title as clickable link, only if url is not blank -->
                 <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">
                 {% if talk.url %}
-                    <a href="{{ talk.url }}" target="_blank" class="talk-title" style="color: #007bff; text-decoration: none;">{{ talk.title }}</a> <!-- Light blue for titles with URLs -->
+                    <a href="{{ talk.url }}" target="_blank" class="talk-title" style="color: {{ site.color_link }}; text-decoration: none;">{{ talk.title }}</a> <!-- Using theme color for blue -->
                 {% else %}
                     <span class="no-link" style="color: #fff;">{{ talk.title }}</span> <!-- White for titles without URLs -->
                 {% endif %}
@@ -68,7 +68,7 @@ layout: default
                 <!-- Venue as clickable link and year under the title -->
                 <p class="venue-year" style="font-size: 0.9rem; color: #555; margin-bottom: 0.5rem;">
                 <a href="{{ talk.venue_url }}" target="_blank" class="venue-link" style="color: #28a745; text-decoration: none;">{{ talk.conference }}</a> 
-                <span style="color: #aaa;">- {{ talk.year }}</span>
+                <span style="color: #444;">- {{ talk.year }}</span> <!-- Darker color for year -->
                 </p>
             </li>
             {% endfor %}

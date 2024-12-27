@@ -47,6 +47,19 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    <!-- Invited Talks -->
+    {% if page.invited_talks %}
+      <h2>Invited Talks</h2>
+      <div class="talks">
+        {% for talk in site.data.talks %}
+          <div class="talk">
+            <p><strong>{{ talk.title }}</strong></p>
+            <p>{{ talk.conference }} - <a href="{{ talk.url }}" target="_blank">Watch Talk</a></p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
     
     <!-- GitHub Repositories -->
     {% if site.data.repositories.github_repos %}

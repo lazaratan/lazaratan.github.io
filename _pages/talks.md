@@ -8,7 +8,6 @@ nav_order: 7
 ---
 
 ---
-
 ### Invited Talks
 
 - **[Meta Flow Matching (MFM)](https://www.youtube.com/watch?v=-4Av5IEc_Wc)**  

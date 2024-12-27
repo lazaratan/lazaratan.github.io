@@ -8,8 +8,9 @@ github_users:
 github_repos:
   - lazaratan/meta-flow-matching
   - lazaratan/dyn-gfn
-  - lazaratan/gflownet-generalization
-  #- recursionpharma/gflownet
+  - recursionpharma/gflownet
+  #- lazaratan/gflownet-generalization
+
   #- alshedivat/al-folio
   #- twbs/bootstrap
   #- jekyll/jekyll

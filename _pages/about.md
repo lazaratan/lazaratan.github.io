@@ -5,7 +5,7 @@ permalink: /
 subtitle: I am a Ph.D. Candidate at the <a href='https://www.utoronto.ca/'>University of Toronto</a> in <a href='https://www.ece.utoronto.ca/'>The Department of Electrical & Computer Engineering</a> and the <a href='https://vectorinstitute.ai/'>Vector Institute</a>.
 
 profile:
-  align: centre
+  align: right
   image: laz_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: l.atanackovic@mail.utoronto.ca
@@ -16,7 +16,7 @@ profile:
 social: true # includes social icons at the bottom of the page
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 ---
 
 I am a member of the <a href='https://psi.toronto.edu/'>Probabilistic and Statistical Inference Group</a> supervised by <a href='https://psi.toronto.edu/~frey/'>Brendan Frey</a> and co-supervised by <a href='https://wanglab.ai/people.html'>Bo Wang</a>. Previously, I was a research intern at <a href='https://www.recursion.com/'>Recursion Pharmaceuticals</a> / <a href='https://www.valencelabs.com/'>Valence Labs</a>, <a href='https://www.deepgenomics.com/'>Deep Genomics</a>, and <a href='https://mila.quebec/en/'>Mila - Quebec AI Institute</a>.
@@ -28,9 +28,11 @@ Feel free to contact me for collaborations or if you have any questions about my
 ---
 
 ### Selected Publications
-{% for paper in site.selected_papers %}
-  <p><strong>{{ paper.title }}</strong></p>
-  <p>{{ paper.authors }} - <a href="{{ paper.url }}">Read More</a></p>
+{% for paper in site.bib %}
+  {% if paper.selected == true %}
+    <p><strong>{{ paper.title }}</strong></p>
+    <p>{{ paper.author }} - <a href="{{ paper.url }}">Read More</a></p>
+  {% endif %}
 {% endfor %}
 
 ---

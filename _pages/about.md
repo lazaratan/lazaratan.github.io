@@ -8,7 +8,7 @@ profile:
   align: center
   image: laz_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: l.atanackovic@mail.utoronto.ca
+  more_info: #l.atanackovic@mail.utoronto.ca
     #<p>555 your office number</p>
     #<p>123 your address street</p>
     #<p>Your City, State 12345</p>

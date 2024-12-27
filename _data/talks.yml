@@ -1,7 +1,10 @@
 - title: "Meta Flow Matching (MFM)"
-  conference: "Learning on Graphs and Geometry, 2024"
   url: "https://www.youtube.com/watch?v=-4Av5IEc_Wc"
-  
+  conference: "Learning on Graphs and Geometry"
+  year: "2024"
+  venue_url: "https://portal.valencelabs.com/logg"
+
 - title: "DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets"
-  conference: "Helmholtz AI Conference, 2024"
-  url: "https://haicon24.de/"
+  conference: "Helmholtz AI Conference"
+  year: "2024"
+  venue_url: "https://haicon24.de/"

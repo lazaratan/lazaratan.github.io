@@ -22,6 +22,6 @@ invited_talks: true
 
 I am a member of the <a href='https://psi.toronto.edu/'>Probabilistic and Statistical Inference Group</a> supervised by <a href='https://psi.toronto.edu/~frey/'>Brendan Frey</a> and co-supervised by <a href='https://wanglab.ai/people.html'>Bo Wang</a>. Previously, I was a research intern at <a href='https://www.recursion.com/'>Recursion Pharmaceuticals</a> / <a href='https://www.valencelabs.com/'>Valence Labs</a>, <a href='https://www.deepgenomics.com/'>Deep Genomics</a>, and <a href='https://mila.quebec/en/'>Mila - Quebec AI Institute</a>.
 
-My research focuses on developing machine learning methods for deciphering and modelling complex dynamical systems from data, with a particular focus on computational biology and biological systems. My interests include (but are not limited to) generative modelling (flows and diffusion), dynamical systems, causality, single-cell biology, and proteins.
+My research focuses on developing machine learning methods for deciphering and modelling complex dynamical systems from data, with a particular focus on computational biology and biological systems. My interests include generative modelling (flows and diffusion), dynamical systems, causality, single-cell biology, and proteins.
 
 Feel free to contact me for collaborations or if you have any questions about my work!

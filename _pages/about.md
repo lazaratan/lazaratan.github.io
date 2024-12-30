@@ -7,14 +7,14 @@ subtitle: I am a Ph.D. Candidate at the <a href='https://www.utoronto.ca/'>Unive
 profile:
   align: center
   image: laz_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: #l.atanackovic@mail.utoronto.ca
     #<p>555 your office number</p>
     #<p>123 your address street</p>
     #<p>Your City, State 12345</p>
 
 social: true # includes social icons at the bottom of the page
-news: false # includes a list of news items
+news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks: true

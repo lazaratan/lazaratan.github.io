@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be attending NeurIPS this year in Vancouver! :smile:
+I will be attending NeurIPS this year in Vancouver! :smile: Reach out if you want to meet and chat!

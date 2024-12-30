@@ -8,6 +8,7 @@ github_users:
 github_repos:
   - lazaratan/meta-flow-matching
   - lazaratan/dyn-gfn
+  - necludov/super-diffusion
   - recursionpharma/gflownet
   #- lazaratan/gflownet-generalization
 

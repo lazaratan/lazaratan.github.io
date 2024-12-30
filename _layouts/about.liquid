@@ -38,6 +38,11 @@ layout: default
       </div>
     {% endif %}
 
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- Divider -->
+    <hr class="section-divider">
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
@@ -46,9 +51,7 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- Divider after Repositories -->
+    <!-- Divider -->
     <hr class="section-divider">
        
     <!-- Selected papers -->
@@ -59,7 +62,7 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Divider after Repositories -->
+    <!-- Divider -->
     <hr class="section-divider">
 
     {% if page.invited_talks %}
@@ -86,7 +89,7 @@ layout: default
         </ul>
     {% endif %}
 
-    <!-- Divider after Repositories -->
+    <!-- Divider -->
     <hr class="section-divider">
     
     <!-- GitHub Repositories -->
@@ -103,7 +106,7 @@ layout: default
     </div>
     {% endif %}
 
-    <!-- Divider after Repositories -->
+    <!-- Divider -->
     <hr class="section-divider">
 
     <!-- Latest posts -->

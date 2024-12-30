@@ -41,7 +41,7 @@
   <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
 {% endif %}
 {% if site.bluesky_username %}
-  <a href="https://bsky.app/profile/{{ site.bluesky_username }}" title="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+  <a href="https://bsky.app/profile/{{ site.bluesky_username }}" title="BlueSky"><i class="fa-solid fa-bluesky"></i></a>
 {% endif %}
 {% if site.mastodon_username %}
   <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
@@ -114,9 +114,9 @@
 {% endif %}
 {% if site.cv_url %}
   <a href="{{ site.cv_url }}" target="_blank" title="CV" 
-     style="color: #000; text-decoration: none;" 
+     style="color: {{ site.color_text }}; text-decoration: none;" 
      onmouseover="this.style.color='{{ site.color_link }}'" 
-     onmouseout="this.style.color='#000'">
+     onmouseout="this.style.color='{{ site.color_text }}'">
     CV
   </a>
 {% endif %}

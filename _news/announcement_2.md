@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am excited to announce that both Meta Flow Matching (Poster) and SuperDiff (Spotlight) got accepted to ICLR 2025! 
+I am excited to announce that both Meta Flow Matching (Poster) and SuperDiff (Spotlight) have been accepted to ICLR 2025! 

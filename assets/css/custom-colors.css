@@ -1,21 +1,21 @@
 :root {
-  --global-theme-color: #1abc9c;         /* Teal */
-  --global-hover-color: #16a085;         /* Darker teal */
-  --global-bg-color: #f8f9fa;            /* Light gray background */
-  --global-text-color: #222831;          /* Dark blue-gray */
-  --global-footer-bg-color: #222831;     /* Footer dark */
-  --global-footer-text-color: #f8f9fa;   /* Footer text */
-  --global-card-bg-color: #ffffff;       /* Card background */
-  --global-divider-color: #e0e0e0;       /* Divider */
+  --global-bg-color: #f8f6f3;              /* Off-white */
+  --global-theme-color: #a83232;           /* Maroon */
+  --global-hover-color: #d7263d;           /* Vivid red accent */
+  --global-text-color: #222;               /* Almost black */
+  --global-footer-bg-color: #a83232;       /* Maroon footer */
+  --global-footer-text-color: #f8f6f3;     /* Off-white footer text */
+  --global-card-bg-color: #fff;            /* White cards */
+  --global-divider-color: #e0e0e0;         /* Light divider */
 }
 
 html[data-theme="dark"] {
-  --global-theme-color: #00bcd4;         /* Cyan */
-  --global-hover-color: #0097a7;         /* Darker cyan */
-  --global-bg-color: #181a1b;            /* Very dark background */
-  --global-text-color: #e0e0e0;          /* Light text */
-  --global-footer-bg-color: #23272e;     /* Footer dark */
-  --global-footer-text-color: #b0bec5;   /* Footer text */
-  --global-card-bg-color: #23272e;       /* Card background */
-  --global-divider-color: #424242;       /* Divider */
+  --global-bg-color: #181622;              /* Deep dark with a hint of blue */
+  --global-theme-color: #b39ddb;           /* Lavender accent */
+  --global-hover-color: #9575cd;           /* Deeper lavender */
+  --global-text-color: #e0e0e0;            /* Light text */
+  --global-footer-bg-color: #23203a;       /* Dark footer */
+  --global-footer-text-color: #b39ddb;     /* Lavender footer text */
+  --global-card-bg-color: #23203a;         /* Dark cards */
+  --global-divider-color: #424242;         /* Dark divider */
 } 

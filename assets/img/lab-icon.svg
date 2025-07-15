@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <g fill="none" stroke="#a75d5d" stroke-width="5">
-    <path d="M20,20 Q50,50 80,20" />
-    <path d="M20,80 Q50,50 80,80" />
-    <line x1="30" y1="30" x2="70" y2="70" />
-    <line x1="30" y1="70" x2="70" y2="30" />
-  </g>
+  <!-- Fancy calligraphic theta (θ) -->
+  <path
+    d="M70,50
+       Q70,80 50,80
+       Q30,80 30,50
+       Q30,20 50,20
+       Q70,20 70,50
+       M35,40
+       Q50,50 65,60"
+    fill="none"
+    stroke="#b39ddb"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 </svg> 

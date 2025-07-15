@@ -89,4 +89,9 @@ a:hover, a:focus {
 .card-text .list-group-item h6[style]:not(.title),
 .card-text .list-group-item .font-weight-bold:not(.title) {
   font-weight: 400 !important;
+}
+
+/* Publication title accent color */
+.card-text .list-group-item h6.title a {
+  color: var(--global-theme-color) !important;
 } 

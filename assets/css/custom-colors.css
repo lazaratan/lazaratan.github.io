@@ -81,7 +81,12 @@ a:hover, a:focus {
   color: var(--global-link-hover-color);
 }
 
-/* Only publication title bold */
-.card-text .list-group-item h6:not(.title) {
+/* Only publication title bold, all other citation text normal */
+.card-text .list-group-item h6.title {
+  font-weight: 700 !important;
+}
+.card-text .list-group-item h6:not(.title),
+.card-text .list-group-item h6[style]:not(.title),
+.card-text .list-group-item .font-weight-bold:not(.title) {
   font-weight: 400 !important;
 } 

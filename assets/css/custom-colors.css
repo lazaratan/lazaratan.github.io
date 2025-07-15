@@ -1,21 +1,33 @@
 :root {
-  --global-bg-color: #f8f6f3;              /* Off-white */
-  --global-theme-color: #a83232;           /* Maroon */
-  --global-hover-color: #d7263d;           /* Vivid red accent */
-  --global-text-color: #222;               /* Almost black */
-  --global-footer-bg-color: #a83232;       /* Maroon footer */
-  --global-footer-text-color: #f8f6f3;     /* Off-white footer text */
-  --global-card-bg-color: #fff;            /* White cards */
-  --global-divider-color: #e0e0e0;         /* Light divider */
+  --global-bg-color: #f9f9f6;                /* Softer off-white */
+  --global-theme-color: #a75d5d;             /* Muted maroon */
+  --global-hover-color: #b98c8c;             /* Muted rose */
+  --global-text-color: #232323;              /* Modern dark gray */
+  --global-footer-bg-color: #ececec;         /* Light gray footer */
+  --global-footer-text-color: #a75d5d;       /* Maroon footer text */
+  --global-card-bg-color: #fff;              /* White cards */
+  --global-divider-color: #e5e5e5;           /* Subtle divider */
+  --global-link-color: #a75d5d;              /* Maroon links */
+  --global-link-hover-color: #b98c8c;        /* Rose hover */
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #181622;              /* Deep dark with a hint of blue */
-  --global-theme-color: #b39ddb;           /* Lavender accent */
-  --global-hover-color: #9575cd;           /* Deeper lavender */
-  --global-text-color: #e0e0e0;            /* Light text */
-  --global-footer-bg-color: #23203a;       /* Dark footer */
-  --global-footer-text-color: #b39ddb;     /* Lavender footer text */
-  --global-card-bg-color: #23203a;         /* Dark cards */
-  --global-divider-color: #424242;         /* Dark divider */
+  --global-bg-color: #181622;                /* Deep dark */
+  --global-theme-color: #c7bfff;             /* Light lavender accent */
+  --global-hover-color: #e0d7ff;             /* Even lighter lavender */
+  --global-text-color: #e0e0e0;              /* Light text */
+  --global-footer-bg-color: #23203a;         /* Dark footer */
+  --global-footer-text-color: #c7bfff;       /* Lavender footer text */
+  --global-card-bg-color: #23203a;           /* Dark cards */
+  --global-divider-color: #3a3a4d;           /* Subtle dark divider */
+  --global-link-color: #c7bfff;              /* Lavender links */
+  --global-link-hover-color: #e0d7ff;        /* Lighter lavender hover */
+}
+
+a {
+  color: var(--global-link-color);
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: var(--global-link-hover-color);
 } 

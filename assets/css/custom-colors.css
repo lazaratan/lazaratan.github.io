@@ -95,4 +95,10 @@ a:hover, a:focus {
 .card-text .list-group-item h6.title,
 .card-text .list-group-item h6.title a {
   color: var(--global-theme-color) !important;
+}
+
+/* Bibliography publication title accent color */
+.publications .title {
+  color: var(--global-theme-color) !important;
+  font-weight: 700 !important;
 } 

@@ -24,6 +24,51 @@ html[data-theme="dark"] {
   --global-link-hover-color: #e0d7ff;        /* Lighter lavender hover */
 }
 
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.7;
+}
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.02em;
+}
+
+/* Modern, glassy navbar */
+nav.navbar {
+  background: rgba(255,255,255,0.75) !important;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 12px rgba(50,30,80,0.07);
+  border-bottom: 1px solid var(--global-divider-color, #e5e5e5);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+html[data-theme="dark"] nav.navbar {
+  background: rgba(24,22,34,0.85) !important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--global-divider-color, #3a3a4d);
+}
+
+/* Custom nav link hover effect */
+nav.navbar .nav-link {
+  position: relative;
+  transition: color 0.2s;
+}
+nav.navbar .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--global-theme-color, #b39ddb);
+  transition: width 0.2s;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+nav.navbar .nav-link:hover::after,
+nav.navbar .nav-link:focus::after {
+  width: 100%;
+}
+
 a {
   color: var(--global-link-color);
   transition: color 0.2s;

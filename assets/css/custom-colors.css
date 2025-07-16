@@ -117,6 +117,13 @@ a:hover, a:focus {
   align-items: center;
   justify-content: flex-start;
 }
+.fixed-sidebar .profile-badge-name {
+  color: var(--global-theme-color) !important;
+  font-weight: bold;
+  margin-top: 0.7em;
+  font-size: 1.1em;
+  text-align: center;
+}
 
 .main-content {
   margin-left: 180px;

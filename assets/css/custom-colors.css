@@ -199,12 +199,10 @@ a:hover, a:focus {
 
 @media (max-width: 900px) {
   .fixed-sidebar {
-    position: static;
-    width: 100%;
-    height: auto;
-    background: none;
-    max-width: 100%;
-    justify-content: flex-start;
+    display: none !important;
+  }
+  body.about-page .fixed-sidebar {
+    display: flex !important;
   }
   .main-content {
     margin-left: 0;

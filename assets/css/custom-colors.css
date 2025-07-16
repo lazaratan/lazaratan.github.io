@@ -204,7 +204,7 @@ a:hover, a:focus {
   margin-top: 0 !important;
   margin-left: 0;
   margin-right: 0;
-  max-width: 1000px;
+  max-width: 900px;
   width: 100%;
 }
 .main-flex-container::after {
@@ -227,12 +227,13 @@ a:hover, a:focus {
     max-width: 100%;
   }
   .profile-badge-img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 10px;
   }
   .profile-badge-info {
     max-width: 100%;
+    font-size: 1em;
   }
   .main-flex-container::after {
     display: none;

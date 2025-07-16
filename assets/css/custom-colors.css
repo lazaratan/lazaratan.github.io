@@ -146,29 +146,11 @@ a:hover, a:focus {
   }
 }
 
-/* Sidebar layout for profile badge - narrower sidebar, wider main content */
-.main-flex-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
-  min-height: 100vh;
-}
+/* Sidebar layout for profile badge - clean and unified */
 .main-flex-container aside {
-  flex: 0 0 60px;
-  min-width: 40px;
-  max-width: 80px;
-  margin-right: 0;
-  margin-left: 0;
-  min-height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.profile-badge {
-  width: 100%;
+  flex: 0 0 140px;
+  min-width: 120px;
+  max-width: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,9 +158,17 @@ a:hover, a:focus {
   margin: 0;
   padding: 0;
 }
+.profile-badge {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
 .profile-badge-img {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 1em;
@@ -188,29 +178,21 @@ a:hover, a:focus {
 }
 .profile-badge-info {
   text-align: left;
-  font-size: 1.13em;
+  font-size: 0.95em;
   color: var(--global-text-color, #232323);
-  margin-left: 0;
   width: 100%;
   max-width: 120px;
-}
-.main-flex-container main {
-  flex: 1 1 0%;
-  min-width: 0;
-  display: flex;
-  justify-content: center;
+  word-break: break-word;
 }
 .main-flex-container main > .container {
-  margin-top: 0 !important;
-  margin-left: 0;
-  margin-right: 0;
   max-width: 900px;
   width: 100%;
+  margin: 0;
 }
 .main-flex-container::after {
   content: '';
   display: block;
-  flex: 0 0 60px;
+  flex: 0 0 140px;
 }
 @media (max-width: 900px) {
   .main-flex-container {

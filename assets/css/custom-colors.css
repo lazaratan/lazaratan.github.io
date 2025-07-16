@@ -108,9 +108,9 @@ a:hover, a:focus {
   position: fixed;
   top: 0;
   left: 0;
-  width: 220px;
-  max-width: 220px;
-  min-width: 180px;
+  width: 270px;
+  max-width: 270px;
+  min-width: 220px;
   height: 100vh;
   background: var(--global-bg-color, #fff);
   z-index: 10;
@@ -129,7 +129,7 @@ a:hover, a:focus {
 }
 
 .main-content {
-  margin-left: 180px;
+  margin-left: 250px;
   max-width: 900px;
   width: 100%;
   margin-right: auto;

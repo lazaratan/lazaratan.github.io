@@ -155,15 +155,15 @@ a:hover, a:focus {
 }
 
 .profile-badge-img {
-  width: 150px;
+  width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 100px;
   margin-bottom: 1em;
-  margin-top: 6em;
+  margin-top: 5em;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1em;
+  margin-right: 1em;
   align-items: center;
 }
 

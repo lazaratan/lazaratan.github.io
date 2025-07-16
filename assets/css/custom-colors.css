@@ -215,13 +215,13 @@ a:hover, a:focus {
     padding-right: 15px !important;
   }
   .profile-badge-img {
-    width: 180px;
-    height: 180px;
-    border-radius: 15px;
-    margin-top: 3.7em;
+    width: 250;
+    height: 250px;
+    border-radius: 50px;
+    margin-top: 2em;
   }
   .profile-badge-info {
     max-width: 100%;
-    font-size: 1em;
+    font-size: 3em;
   }
 } 

@@ -149,10 +149,10 @@ a:hover, a:focus {
 }
 
 .profile-badge-img {
-  width: 250;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
-  border-radius: 60;
+  border-radius: 75px;
   margin-bottom: 1em;
   margin-top: 6em;
   display: block;
@@ -163,7 +163,7 @@ a:hover, a:focus {
 .profile-badge-name,
 .profile-badge-info {
   width: 100%;
-  max-width: none;
+  max-width: 300px;
   text-align: center;
   box-sizing: border-box;
   padding-left: 0.5em;
@@ -176,6 +176,7 @@ a:hover, a:focus {
   margin-top: 0.7em;
   font-size: 2.1em;
   text-align: center;
+  max-width: 300ox;
 }
 
 .profile-badge-info {
@@ -183,7 +184,7 @@ a:hover, a:focus {
   font-size: 1.05em;
   color: var(--global-text-color, #232323);
   width: 100%;
-  max-width: 170px;
+  max-width: 300px;
   word-break: break-word;
 }
 

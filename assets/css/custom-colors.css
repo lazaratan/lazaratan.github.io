@@ -161,7 +161,7 @@ a:hover, a:focus {
     justify-content: flex-start;
   }
   .main-content {
-    margin-left: 0;
+    margin-left: 90px;
     max-width: 100%;
   }
   .profile-badge-img {

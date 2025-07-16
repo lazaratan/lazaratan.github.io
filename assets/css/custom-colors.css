@@ -143,12 +143,13 @@ a:hover, a:focus {
 }
 
 .profile-badge {
-  width: 100%;
+  width: 220px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin: 0;
+  margin: 0 auto;
   padding: 3em;
   text-align: center;
 }
@@ -168,7 +169,6 @@ a:hover, a:focus {
 .profile-badge-name,
 .profile-badge-info {
   width: 100%;
-  max-width: 320px;
   text-align: center;
   box-sizing: border-box;
   padding-left: 0;
@@ -177,6 +177,7 @@ a:hover, a:focus {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  max-width: 100%;
 }
 
 .profile-badge-name {
@@ -235,7 +236,7 @@ a:hover, a:focus {
     justify-content: flex-start;
     box-shadow: none;
     border-radius: 0;
-    padding: 0 18px; /* Add horizontal padding */
+    padding: 0 10px;
   }
   .profile-badge {
     width: 100vw;
@@ -248,8 +249,8 @@ a:hover, a:focus {
     background: transparent;
     text-align: center;
     box-sizing: border-box;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .profile-badge-img {
     width: 180px;
@@ -291,12 +292,16 @@ a:hover, a:focus {
   .main-content {
     margin-left: 0;
     max-width: 100%;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box;
   }
   .main-content > .container {
     padding-left: 0;
     padding-right: 0;
+  }
+  .profile-badge-info {
+    line-height: 1.3;
+    margin-top: 0.2em;
   }
 } 

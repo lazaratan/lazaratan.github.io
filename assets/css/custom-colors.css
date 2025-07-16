@@ -147,52 +147,40 @@ a:hover, a:focus {
 }
 
 /* Sidebar layout for profile badge - clean and unified */
+.main-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+}
 .main-flex-container aside {
   flex: 0 0 140px;
   min-width: 120px;
   max-width: 180px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin: 0;
   padding: 0;
+  background: var(--global-bg-color, #fff);
+  border-right: 1px solid var(--global-divider-color, #e5e5e5);
 }
-.profile-badge {
-  width: 100%;
+.main-flex-container main {
+  flex: 1 1 0%;
+  min-width: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-.profile-badge-img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 16px;
-  margin-bottom: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.profile-badge-info {
-  text-align: left;
-  font-size: 0.95em;
-  color: var(--global-text-color, #232323);
-  width: 100%;
-  max-width: 120px;
-  word-break: break-word;
-}
-.main-flex-container main > .container {
-  max-width: 900px;
-  width: 100%;
-  margin: 0;
+  justify-content: center;
+  margin-left: 140px;
 }
 .main-flex-container::after {
-  content: '';
-  display: block;
-  flex: 0 0 140px;
+  display: none;
 }
 @media (max-width: 900px) {
   .main-flex-container {
@@ -200,6 +188,7 @@ a:hover, a:focus {
   }
   .main-flex-container aside {
     position: static;
+    height: auto;
     min-height: auto;
     margin-right: 0;
     margin-bottom: 1em;
@@ -207,17 +196,10 @@ a:hover, a:focus {
     justify-content: flex-start;
     align-items: center;
     max-width: 100%;
+    border-right: none;
+    background: none;
   }
-  .profile-badge-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-  }
-  .profile-badge-info {
-    max-width: 100%;
-    font-size: 1em;
-  }
-  .main-flex-container::after {
-    display: none;
+  .main-flex-container main {
+    margin-left: 0;
   }
 } 

@@ -148,7 +148,7 @@ a:hover, a:focus {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  padding: 2em;
+  padding: 3em;
 }
 
 .profile-badge-img {
@@ -185,7 +185,7 @@ a:hover, a:focus {
 
 .profile-badge-info {
   text-align: center;
-  font-size: 1.05em;
+  font-size: 0.75em;
   color: var(--global-text-color, #232323);
   width: 100%;
   max-width: 300px;
@@ -267,5 +267,13 @@ a:hover, a:focus {
   .main-content > .container {
     padding-left: 15px !important;
     padding-right: 15px !important;
+  }
+  body.about-page .fixed-sidebar {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    position: relative !important;
+    z-index: 10 !important;
   }
 } 

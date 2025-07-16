@@ -198,10 +198,12 @@ a:hover, a:focus {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  line-height: 1.5;
 }
 
+/* Restore line breaks for info items */
 .profile-badge-info br {
-  display: none;
+  display: initial;
 }
 
 .profile-badge-info strong {
@@ -233,7 +235,7 @@ a:hover, a:focus {
     justify-content: flex-start;
     box-shadow: none;
     border-radius: 0;
-    padding: 0;
+    padding: 0 18px; /* Add horizontal padding */
   }
   .profile-badge {
     width: 100vw;
@@ -245,6 +247,9 @@ a:hover, a:focus {
     align-items: center;
     background: transparent;
     text-align: center;
+    box-sizing: border-box;
+    padding-left: 18px;
+    padding-right: 18px;
   }
   .profile-badge-img {
     width: 180px;
@@ -280,13 +285,18 @@ a:hover, a:focus {
     font-size: 1.1em;
     color: var(--global-text-color, #232323);
     margin-top: 0.5em;
+    line-height: 1.5;
+    word-break: break-word;
   }
   .main-content {
     margin-left: 0;
     max-width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-sizing: border-box;
   }
   .main-content > .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 } 

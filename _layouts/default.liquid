@@ -20,37 +20,35 @@
     <!-- Header -->
     {% include header.liquid %}
 
-    <div class="main-flex-container">
-      <aside>
-        {% include profile-badge.liquid %}
-      </aside>
-      <main>
-        <div class="container" role="main">
-          {% if page.toc and page.toc.sidebar %}
-            {% if page.toc.sidebar == 'right' %}
-              <div class="row">
-                <!-- main content area -->
-                <div class="col-sm-9">{{ content }}</div>
-                <!-- sidebar, which will move to the top on a small screen -->
-                <div class="col-sm-3">
-                  <nav id="toc-sidebar" class="sticky-top"></nav>
-                </div>
+    <aside class="fixed-sidebar">
+      {% include profile-badge.liquid %}
+    </aside>
+    <div class="main-content">
+      <div class="container" role="main">
+        {% if page.toc and page.toc.sidebar %}
+          {% if page.toc.sidebar == 'right' %}
+            <div class="row">
+              <!-- main content area -->
+              <div class="col-sm-9">{{ content }}</div>
+              <!-- sidebar, which will move to the top on a small screen -->
+              <div class="col-sm-3">
+                <nav id="toc-sidebar" class="sticky-top"></nav>
               </div>
-            {% else %}
-              <div class="row">
-                <!-- sidebar, which will move to the top on a small screen -->
-                <div class="col-sm-3">
-                  <nav id="toc-sidebar" class="sticky-top"></nav>
-                </div>
-                <!-- main content area -->
-                <div class="col-sm-9">{{ content }}</div>
-              </div>
-            {% endif %}
+            </div>
           {% else %}
-            {{ content }}
+            <div class="row">
+              <!-- sidebar, which will move to the top on a small screen -->
+              <div class="col-sm-3">
+                <nav id="toc-sidebar" class="sticky-top"></nav>
+              </div>
+              <!-- main content area -->
+              <div class="col-sm-9">{{ content }}</div>
+            </div>
           {% endif %}
-        </div>
-      </main>
+        {% else %}
+          {{ content }}
+        {% endif %}
+      </div>
     </div>
     <!-- Footer -->
     {% include footer.liquid %}

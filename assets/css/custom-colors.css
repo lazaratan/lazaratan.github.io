@@ -103,19 +103,37 @@ a:hover, a:focus {
   font-weight: 700 !important;
 }
 
-/* Minimalist sidebar profile badge */
+/* Fixed sidebar layout - clean and robust */
+.fixed-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 100vh;
+  background: var(--global-bg-color, #fff);
+  border-right: 1px solid var(--global-divider-color, #e5e5e5);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.main-content {
+  margin-left: 110px;
+  max-width: 900px;
+  width: 100%;
+}
 .profile-badge {
-  background: none;
-  border-radius: 0;
-  box-shadow: none;
-  align-items: flex-start;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
   padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .profile-badge-img {
-  width: 160px;
-  height: 160px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 1em;
@@ -125,81 +143,32 @@ a:hover, a:focus {
 }
 .profile-badge-info {
   text-align: left;
-  font-size: 1.08em;
+  font-size: 0.95em;
   color: var(--global-text-color, #232323);
-  margin-left: 0;
+  width: 100%;
+  max-width: 100px;
+  word-break: break-word;
 }
 @media (max-width: 900px) {
-  .profile-badge {
+  .fixed-sidebar {
     position: static;
-    margin: 0 auto 1em auto;
-    box-shadow: none;
-    border-radius: 0;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    background: none;
+    max-width: 100%;
+  }
+  .main-content {
+    margin-left: 0;
     max-width: 100%;
   }
   .profile-badge-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
   }
-}
-
-/* Sidebar layout for profile badge - clean and unified */
-.main-flex-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
-  min-height: 100vh;
-}
-.main-flex-container aside {
-  flex: 0 0 110px;
-  min-width: 90px;
-  max-width: 120px;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 0;
-  padding: 0;
-  background: var(--global-bg-color, #fff);
-  border-right: 1px solid var(--global-divider-color, #e5e5e5);
-}
-.main-flex-container main {
-  flex: 1 1 0%;
-  min-width: 0;
-  display: flex;
-  justify-content: center;
-  margin-left: 110px;
-}
-.main-flex-container::after {
-  display: none;
-}
-@media (max-width: 900px) {
-  .main-flex-container {
-    flex-direction: column;
-  }
-  .main-flex-container aside {
-    position: static;
-    height: auto;
-    min-height: auto;
-    margin-right: 0;
-    margin-bottom: 1em;
-    width: 100%;
-    justify-content: flex-start;
-    align-items: center;
+  .profile-badge-info {
     max-width: 100%;
-    border-right: none;
-    background: none;
-  }
-  .main-flex-container main {
-    margin-left: 0;
+    font-size: 1em;
   }
 } 

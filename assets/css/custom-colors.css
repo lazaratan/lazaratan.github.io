@@ -120,12 +120,19 @@ a:hover, a:focus {
   min-width: 220px;
   max-width: 260px;
 }
+/* Larger, centered profile badge image */
+.profile-badge {
+  align-items: center;
+}
 .profile-badge-img {
-  width: 90px;
-  height: 90px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 0.7em;
+  border-radius: 12px;
+  margin-bottom: 0.9em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .profile-badge-info {
   text-align: center;

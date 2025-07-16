@@ -5,10 +5,13 @@ permalink: /
 subtitle: I am a Ph.D. Candidate at the <a href='https://www.utoronto.ca/'>University of Toronto</a> in <a href='https://www.ece.utoronto.ca/'>The Department of Electrical & Computer Engineering</a> and the <a href='https://vectorinstitute.ai/'>Vector Institute</a>.
 
 profile:
-  align: center
+  align: right
   image: laz_pic.jpg
-  image_circular: true # crops the image to make it circular
-  more_info: #l.atanackovic@mail.utoronto.ca
+  image_circular: false # crops the image to make it circular
+  more_info: Ph.D Candidate
+    </p>University of Toronto</p>
+    </p>Vector Institute</p>
+    </p>l.atanackovic at mail.utoronto.ca</p>
     #<p>555 your office number</p>
     #<p>123 your address street</p>
     #<p>Your City, State 12345</p>

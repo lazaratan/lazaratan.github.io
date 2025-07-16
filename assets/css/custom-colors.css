@@ -146,11 +146,18 @@ a:hover, a:focus {
   }
 }
 
-/* Sidebar layout for profile badge - compact and top-aligned */
+/* Sidebar layout for profile badge - narrower sidebar, wider main content */
+.main-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+}
 .main-flex-container aside {
-  flex: 0 0 120px;
-  min-width: 90px;
-  max-width: 140px;
+  flex: 0 0 60px;
+  min-width: 40px;
+  max-width: 80px;
   margin-right: 0;
   margin-left: 0;
   min-height: 100vh;
@@ -170,8 +177,8 @@ a:hover, a:focus {
   padding: 0;
 }
 .profile-badge-img {
-  width: 130px;
-  height: 130px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 1em;
@@ -185,7 +192,7 @@ a:hover, a:focus {
   color: var(--global-text-color, #232323);
   margin-left: 0;
   width: 100%;
-  max-width: 160px;
+  max-width: 120px;
 }
 .main-flex-container main {
   flex: 1 1 0%;
@@ -194,16 +201,16 @@ a:hover, a:focus {
   justify-content: center;
 }
 .main-flex-container main > .container {
+  margin-top: 0 !important;
   margin-left: 0;
   margin-right: 0;
-  max-width: 700px;
+  max-width: 1000px;
   width: 100%;
 }
-/* Add a right 'sidebar' for symmetry */
 .main-flex-container::after {
   content: '';
   display: block;
-  flex: 0 0 120px;
+  flex: 0 0 60px;
 }
 @media (max-width: 900px) {
   .main-flex-container {
@@ -220,8 +227,8 @@ a:hover, a:focus {
     max-width: 100%;
   }
   .profile-badge-img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
   }
   .profile-badge-info {

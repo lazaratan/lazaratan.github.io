@@ -2,144 +2,87 @@
 layout: default
 ---
 <!doctype html>
-<html lang="{{ site.lang }}">
-  <!-- Head -->
-  <head>
-    {% if page.redirect %}
-      {% if page.redirect == true %}
-        {% assign redirect = site.baseurl | append: '/' %}
-      {% elsif page.redirect contains '://' %}
-        {% assign redirect = page.redirect %}
-      {% else %}
-        {% assign redirect = page.redirect | relative_url %}
-      {% endif %}
-      <meta http-equiv="refresh" content="3; url={{ redirect }}">
+<div class="post">
+  <header class="post-header">
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- Divider -->
+    <hr class="section-divider">
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      </h2>
+      {% include news.liquid limit=true %}
     {% endif %}
-    {% include head.liquid %}
-  </head>
 
-  <!-- Body -->
-  <body class="about-page{% if site.navbar_fixed %} fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
-    {% include header.liquid %}
+    <!-- Divider -->
+    <hr class="section-divider">
 
-    <div class="post">
-      <header class="post-header">
-        <p class="desc">{{ page.subtitle }}</p>
-      </header>
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
 
-      <article>
-        {% if page.profile %}
-          <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-            {% if page.profile.image %}
-              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-              {% if page.profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-              {% endif %}
-              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-              {%
-                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-                cache_bust=true
-              %}
+    <!-- Divider -->
+    <hr class="section-divider">
+
+    <!-- Invited talks -->
+    {% if page.invited_talks %}
+      <h2>Feature Talks</h2>
+      <ul class="talks-list">
+        {% for talk in site.data.talks %}
+        <li class="talk-item" style="font-size: 1rem; margin-bottom: 1rem;">
+          <h3 class="talk-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;">
+            {% if talk.url %}
+              <a href="{{ talk.url }}" target="_blank" class="talk-link">{{ talk.title }}</a>
+            {% else %}
+              <span class="talk-title-no-link">{{ talk.title }}</span>
             {% endif %}
-            {% if page.profile.more_info %}
-              <div class="more-info">{{ page.profile.more_info }}</div>
-            {% endif %}
-          </div>
-        {% endif %}
+          </h3>
+          <p class="venue-year">
+            <a href="{{ talk.venue_url }}" target="_blank" class="venue-link">{{ talk.conference }}</a>
+            <span class="talk-year">{{ talk.year }}</span>
+          </p>
+        </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
 
-        <div class="clearfix">{{ content }}</div>
+    <!-- Divider -->
+    <hr class="section-divider">
 
-        <!-- Divider -->
-        <hr class="section-divider">
-
-        <!-- News -->
-        {% if page.news and site.announcements.enabled %}
-          <h2>
-            <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-          </h2>
-          {% include news.liquid limit=true %}
-        {% endif %}
-
-        <!-- Divider -->
-        <hr class="section-divider">
-           
-        <!-- Selected papers -->
-        {% if page.selected_papers %}
-          <h2>
-            <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-          </h2>
-          {% include selected_papers.liquid %}
-        {% endif %}
-
-        <!-- Divider -->
-        <hr class="section-divider">
-
-        {% if page.invited_talks %}
-            <h2>Feature Talks</h2>
-            <ul class="talks-list">
-                {% for talk in site.data.talks %}
-                <li class="talk-item" style="font-size: 1rem; margin-bottom: 1rem;">
-                    <!-- Title as clickable link, only if url is not blank -->
-                    <h3 class="talk-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;">
-                    {% if talk.url %}
-                        <a href="{{ talk.url }}" target="_blank" class="talk-link">{{ talk.title }}</a> <!-- Class for dynamic styling -->
-                    {% else %}
-                        <span class="talk-title-no-link">{{ talk.title }}</span> <!-- Class for dynamic styling -->
-                    {% endif %}
-                    </h3>
-
-                    <!-- Venue as clickable link and year under the title -->
-                    <p class="venue-year">
-                    <a href="{{ talk.venue_url }}" target="_blank" class="venue-link">{{ talk.conference }}</a> 
-                    <span class="talk-year">{{ talk.year }}</span>
-                    </p>
-                </li>
-                {% endfor %}
-            </ul>
-        {% endif %}
-
-        <!-- Divider -->
-        <hr class="section-divider">
-        
-        <!-- GitHub Repositories -->
-        {% if site.data.repositories.github_repos %}
-        <h2>
-            <a href="https://github.com/{{ site.github_username }}" style="color: inherit">Repositories</a>
-        </h2>
-        <div class="repositories d-flex flex-wrap justify-content-start" style="gap: 5px;">
-            {% for repo in site.data.repositories.github_repos %}
-            <div style="flex: 1 1 100%; max-width: 80%; box-sizing: border-box; margin-bottom: 5px;">
-                {% include repository/repo.liquid repository=repo %}
-            </div>
-            {% endfor %}
+    <!-- Software Packages (was Repositories) -->
+    {% if site.data.repositories.github_repos %}
+      <h2>
+        <a href="https://github.com/{{ site.github_username }}" style="color: inherit">Software Packages</a>
+      </h2>
+      <div class="repositories d-flex flex-wrap justify-content-start" style="gap: 5px;">
+        {% for repo in site.data.repositories.github_repos %}
+        <div style="flex: 1 1 100%; max-width: 80%; box-sizing: border-box; margin-bottom: 5px;">
+          {% include repository/repo.liquid repository=repo %}
         </div>
-        {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
-        <!-- Divider -->
-        <hr class="section-divider">
+    <!-- Divider -->
+    <hr class="section-divider">
 
-        <!-- Latest posts -->
-        {% if page.latest_posts %}
-          <h2>
-            <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-          </h2>
-          {% include latest_posts.liquid %}
-        {% endif %}
-
-        <!-- Social -->
-        {% if page.social %}
-          <div class="social">
-            <div class="contact-icons">{% include social.liquid %}</div>
-
-            <div class="contact-note">{{ site.contact_note }}</div>
-          </div>
-        {% endif %}
-      </article>
-    </div>
-  </body>
-</html>
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+  </article>
+</div>

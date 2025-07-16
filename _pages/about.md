@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 # subtitle: I am a Ph.D. Candidate at the <a href='https://www.utoronto.ca/'>University of Toronto</a> in <a href='https://www.ece.utoronto.ca/'>The Department of Electrical & Computer Engineering</a> and the <a href='https://vectorinstitute.ai/'>Vector Institute</a>.
 

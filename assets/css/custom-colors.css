@@ -155,9 +155,9 @@ a:hover, a:focus {
   min-height: 100vh;
 }
 .main-flex-container aside {
-  flex: 0 0 140px;
-  min-width: 120px;
-  max-width: 180px;
+  flex: 0 0 110px;
+  min-width: 90px;
+  max-width: 120px;
   height: 100vh;
   position: fixed;
   left: 0;
@@ -177,7 +177,7 @@ a:hover, a:focus {
   min-width: 0;
   display: flex;
   justify-content: center;
-  margin-left: 140px;
+  margin-left: 110px;
 }
 .main-flex-container::after {
   display: none;

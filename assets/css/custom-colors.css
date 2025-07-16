@@ -111,41 +111,11 @@ a:hover, a:focus {
   width: 180px;
   height: 100vh;
   background: var(--global-bg-color, #fff);
-  /* border-right: 1px solid var(--global-divider-color, #e5e5e5); */
   z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-}
-.main-content {
-  margin-left: 180px;
-  max-width: 900px;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  /* Center main content with equal space on both sides */
-  position: relative;
-}
-/* Add a pseudo-element for right spacing equal to sidebar */
-.main-content::after {
-  content: '';
-  display: block;
-  width: 180px;
-  height: 1px;
-  float: right;
-}
-.main-content > .container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-.profile-badge {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+  justify-content: center; /* Center content vertically */
 }
 .profile-badge-img {
   width: 130px;
@@ -153,38 +123,46 @@ a:hover, a:focus {
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 1em;
-  margin-top: 2.5em;
+  margin-top: 5em; /* Move image further down */
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .profile-badge-info {
-  text-align: left;
+  text-align: center; /* Center info text */
   font-size: 1.05em;
   color: var(--global-text-color, #232323);
   width: 100%;
   max-width: 170px;
   word-break: break-word;
 }
+.main-content {
+  margin-left: 180px;
+  max-width: 900px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.main-content::after {
+  display: none !important;
+}
+.main-content > .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 @media (max-width: 900px) {
   .fixed-sidebar {
     position: static;
     width: 100%;
     height: auto;
-    /* border-right: none; */
     background: none;
     max-width: 100%;
+    justify-content: flex-start;
   }
   .main-content {
     margin-left: 0;
     max-width: 100%;
-  }
-  .main-content > .container {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-  .main-content::after {
-    display: none;
   }
   .profile-badge-img {
     width: 90px;

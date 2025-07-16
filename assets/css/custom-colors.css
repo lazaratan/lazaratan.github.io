@@ -160,6 +160,16 @@ a:hover, a:focus {
   margin-right: auto;
 }
 
+.profile-badge-name,
+.profile-badge-info {
+  width: 100%;
+  max-width: none;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 .profile-badge-name {
   color: var(--global-theme-color);
   font-weight: bold;
@@ -175,6 +185,16 @@ a:hover, a:focus {
   width: 100%;
   max-width: 170px;
   word-break: break-word;
+}
+
+.post-title {
+  margin-bottom: 2.5em;
+}
+
+/* Add extra margin to the first h2 after the post-title */
+.post-title + h2,
+.post-title + .desc + h2 {
+  margin-top: 2.5em;
 }
 
 @media (max-width: 900px) {

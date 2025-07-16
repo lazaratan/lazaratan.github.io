@@ -120,7 +120,7 @@ a:hover, a:focus {
 .fixed-sidebar .profile-badge-name {
   color: var(--global-theme-color) !important;
   font-weight: bold;
-  margin-top: 2.2em;
+  margin-top: 0.7em;
   font-size: 1.1em;
   text-align: center;
 }
@@ -145,16 +145,16 @@ a:hover, a:focus {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 2em;
 }
 
 .profile-badge-img {
-  width: 200px;
-  height: 200px;
+  width: 250;
+  height: 250px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 60;
   margin-bottom: 1em;
-  margin-top: 10.5em;
+  margin-top: 6em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -174,7 +174,7 @@ a:hover, a:focus {
   color: var(--global-theme-color);
   font-weight: bold;
   margin-top: 0.7em;
-  font-size: 1.1em;
+  font-size: 2.1em;
   text-align: center;
 }
 
@@ -194,7 +194,7 @@ a:hover, a:focus {
 /* Add extra margin to the first h2 after the post-title */
 .post-title + h2,
 .post-title + .desc + h2 {
-  margin-top: 10.5em;
+  margin-top: 5.5em;
 }
 
 @media (max-width: 900px) {
@@ -215,13 +215,13 @@ a:hover, a:focus {
     padding-right: 15px !important;
   }
   .profile-badge-img {
-    width: 250;
-    height: 250px;
-    border-radius: 50px;
-    margin-top: 2em;
+    width: 180;
+    height: 180px;
+    border-radius: 60px;
+    margin-top: 1em;
   }
   .profile-badge-info {
     max-width: 100%;
-    font-size: 3em;
+    font-size: 1.5em;
   }
 } 

@@ -108,10 +108,10 @@ a:hover, a:focus {
   position: fixed;
   top: 0;
   left: 0;
-  width: 120px;
+  width: 180px;
   height: 100vh;
   background: var(--global-bg-color, #fff);
-  border-right: 1px solid var(--global-divider-color, #e5e5e5);
+  /* border-right: 1px solid var(--global-divider-color, #e5e5e5); */
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -119,9 +119,21 @@ a:hover, a:focus {
   justify-content: flex-start;
 }
 .main-content {
-  margin-left: 120px;
+  margin-left: 180px;
   max-width: 900px;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  /* Center main content with equal space on both sides */
+  position: relative;
+}
+/* Add a pseudo-element for right spacing equal to sidebar */
+.main-content::after {
+  content: '';
+  display: block;
+  width: 180px;
+  height: 1px;
+  float: right;
 }
 .main-content > .container {
   padding-left: 0 !important;
@@ -136,21 +148,22 @@ a:hover, a:focus {
   padding: 0;
 }
 .profile-badge-img {
-  width: 90px;
-  height: 90px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 1em;
+  margin-top: 2.5em;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .profile-badge-info {
   text-align: left;
-  font-size: 0.95em;
+  font-size: 1.05em;
   color: var(--global-text-color, #232323);
   width: 100%;
-  max-width: 100px;
+  max-width: 170px;
   word-break: break-word;
 }
 @media (max-width: 900px) {
@@ -158,7 +171,7 @@ a:hover, a:focus {
     position: static;
     width: 100%;
     height: auto;
-    border-right: none;
+    /* border-right: none; */
     background: none;
     max-width: 100%;
   }
@@ -170,10 +183,14 @@ a:hover, a:focus {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+  .main-content::after {
+    display: none;
+  }
   .profile-badge-img {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     border-radius: 10px;
+    margin-top: 1em;
   }
   .profile-badge-info {
     max-width: 100%;

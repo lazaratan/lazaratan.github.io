@@ -143,7 +143,7 @@ a:hover, a:focus {
 }
 
 .profile-badge {
-  width: 220px;
+  width: 260px;
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -174,11 +174,13 @@ a:hover, a:focus {
   box-sizing: border-box;
   padding-left: 0;
   padding-right: 0;
-  word-break: break-word;
   margin-left: auto;
   margin-right: auto;
   display: block;
   max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .profile-badge-name {
@@ -274,6 +276,7 @@ a:hover, a:focus {
     box-sizing: border-box;
     padding-left: 0;
     padding-right: 0;
+    white-space: normal;
     word-break: break-word;
     display: block;
   }

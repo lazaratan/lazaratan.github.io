@@ -147,8 +147,10 @@ a:hover, a:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   margin: 0;
   padding: 3em;
+  text-align: center;
 }
 
 .profile-badge-img {
@@ -157,7 +159,7 @@ a:hover, a:focus {
   object-fit: cover;
   border-radius: 100px;
   margin-bottom: 1em;
-  margin-top: 5em;
+  margin-top: 6em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -166,12 +168,15 @@ a:hover, a:focus {
 .profile-badge-name,
 .profile-badge-info {
   width: 100%;
-  max-width: 100%;
+  max-width: 320px;
   text-align: center;
   box-sizing: border-box;
   padding-left: 0;
   padding-right: 0;
   word-break: break-word;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .profile-badge-name {
@@ -180,16 +185,28 @@ a:hover, a:focus {
   margin-top: 0.7em;
   font-size: 1.1em;
   text-align: center;
-  max-width: 300ox;
+  max-width: 320px;
 }
 
 .profile-badge-info {
   text-align: center;
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: var(--global-text-color, #232323);
   width: 100%;
-  max-width: 300px;
-  word-break: break-word;
+  max-width: 320px;
+  word-break: break-all;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.profile-badge-info br {
+  display: none;
+}
+
+.profile-badge-info strong {
+  display: block;
+  margin-bottom: 0.2em;
 }
 
 .post-title {
@@ -204,80 +221,72 @@ a:hover, a:focus {
 
 @media (max-width: 900px) {
   .fixed-sidebar {
-    display: flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-    position: relative !important;
-    z-index: 10 !important;
-    width: 100vw !important;
-    max-width: 100vw !important;
-    min-width: 0 !important;
-    height: auto !important;
-    background: #ffe4e1 !important; /* DEBUG: light pink background */
-    border: 2px solid #a75d5d !important; /* DEBUG: maroon border */
-    align-items: center !important;
-    justify-content: flex-start !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 0;
+    height: auto;
+    background: var(--global-bg-color, #fff);
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
   }
   .profile-badge {
-    width: 100vw !important;
-    max-width: 100vw !important;
-    padding: 1.5em 0 1em 0 !important;
-    margin: 0 auto !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    background: transparent !important;
-    text-align: center !important;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 1.5em 0 1em 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    text-align: center;
   }
   .profile-badge-img {
-    width: 180px !important;
-    height: 180px !important;
-    border-radius: 60px !important;
-    margin-top: 1em !important;
-    margin-bottom: 1em !important;
-    display: block !important;
-    object-fit: cover !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    border: 2px solid #a75d5d !important; /* DEBUG: maroon border for image */
+    width: 180px;
+    height: 180px;
+    border-radius: 60px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
   }
   .profile-badge-name,
   .profile-badge-info {
-    width: auto !important;
-    max-width: 90vw !important;
-    text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    box-sizing: border-box !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    word-break: break-word !important;
-    display: block !important;
-    align-items: unset !important;
-    flex-direction: unset !important;
-    justify-content: unset !important;
+    width: auto;
+    max-width: 90vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+    word-break: break-word;
+    display: block;
   }
   .profile-badge-name {
-    font-size: 2.2em !important;
-    font-weight: bold !important;
-    margin-top: 0.7em !important;
-    color: var(--global-theme-color) !important;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: 0.7em;
+    color: var(--global-theme-color);
   }
   .profile-badge-info {
-    font-size: 1.1em !important;
-    color: var(--global-text-color, #232323) !important;
-    margin-top: 0.5em !important;
+    font-size: 1.1em;
+    color: var(--global-text-color, #232323);
+    margin-top: 0.5em;
   }
   .main-content {
-    margin-left: 0 !important;
-    max-width: 100% !important;
+    margin-left: 0;
+    max-width: 100%;
   }
   .main-content > .container {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 } 

@@ -140,4 +140,37 @@ a:hover, a:focus {
     border-radius: 0;
     max-width: 100%;
   }
+}
+
+/* Sidebar layout for profile badge */
+.main-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+}
+.main-flex-container aside {
+  flex: 0 0 260px;
+  margin-right: 32px;
+  margin-left: 0;
+  min-height: 100vh;
+  position: sticky;
+  top: 100px;
+  align-self: flex-start;
+}
+.main-flex-container main {
+  flex: 1 1 0%;
+  min-width: 0;
+}
+@media (max-width: 900px) {
+  .main-flex-container {
+    flex-direction: column;
+  }
+  .main-flex-container aside {
+    position: static;
+    min-height: auto;
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
 } 

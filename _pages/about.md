@@ -29,4 +29,4 @@ Our research spans generative modeling (flows and diffusion), deep learning, cau
 
 **Interested in joining our lab?** Check out our [Research](/research/) areas and learn how to [Join Us](/join-us/) for exciting opportunities at the intersection of machine learning and biology.
 
-Feel free to [contact us](/about/) for collaborations or if you have any questions about our work!
+Feel free to contact us for collaborations or if you have any questions about our work!

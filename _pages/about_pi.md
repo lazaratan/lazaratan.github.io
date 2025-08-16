@@ -35,5 +35,3 @@ My research focuses on developing machine learning methods for understanding and
 Feel free to reach out for collaborations or if you have any questions about my work!
 
 - **Email**: l.atanackovic at mail.utoronto.ca
-- **Office**: University of Toronto, Department of Electrical & Computer Engineering
-- **Affiliations**: Vector Institute 

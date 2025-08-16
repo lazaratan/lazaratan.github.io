@@ -20,6 +20,7 @@ We're looking for PhD students with strong backgrounds in:
 - Solid mathematical foundation
 - Research experience in ML (knowledge in biology helps! But is not required) 
 - Excellent communication and writing skills
+- Publication record
 - Passion for interdisciplinary research
 
 #### Masters Students

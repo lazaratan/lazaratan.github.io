@@ -267,15 +267,21 @@ body {
 .social-icons {
   text-align: center;
   margin: 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 
 .social-icons a {
   display: inline-block;
-  margin: 0 0.6em;
-  font-size: 3em;
+  margin: 0;
+  font-size: 2.5em;
   color: var(--global-theme-color);
   transition: all 0.3s ease;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .social-icons a:hover {
@@ -284,7 +290,7 @@ body {
 }
 
 .social-icons i {
-  padding: 1em;
+  padding: 0.8em;
   border-radius: 50%;
   background: rgba(var(--global-theme-color-rgb, 167, 93, 93), 0.1);
   transition: all 0.3s ease;

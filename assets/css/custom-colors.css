@@ -272,7 +272,7 @@ body {
 .social-icons a {
   display: inline-block;
   margin: 0 0.5em;
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: var(--global-theme-color);
   transition: all 0.3s ease;
   text-decoration: none;
@@ -284,7 +284,7 @@ body {
 }
 
 .social-icons i {
-  padding: 0.5em;
+  padding: 0.8em;
   border-radius: 50%;
   background: rgba(var(--global-theme-color-rgb, 167, 93, 93), 0.1);
   transition: all 0.3s ease;

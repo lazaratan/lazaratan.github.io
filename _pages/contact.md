@@ -3,14 +3,10 @@ layout: page
 title: Contact Us
 permalink: /contact/
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
-# Contact Us
-
 We'd love to hear from you! Whether you're interested in joining our lab, collaborating on research, or just want to learn more about our work, feel free to reach out.
-
-## Get in Touch
 
 ### **Email**
 **Primary Contact**: l.atanackovic at mail.utoronto.ca

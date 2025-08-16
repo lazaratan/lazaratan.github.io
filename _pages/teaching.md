@@ -6,9 +6,7 @@ nav: true
 nav_order: 6
 ---
 
-#### More coming soon!
-
-**Teaching Assistant**
+#### Teaching Assistant
 
 - ECE 244 - *Programming Fundamentals*, Fall 2022 (UofT) 
 
@@ -19,3 +17,5 @@ nav_order: 6
 - ELEC 221 - *Signals and Systems*, Winter 2019 (UBC) 
 
 - CPEN 211 - *Introduction to Microcomputers*, Fall 2016, 2017, 2018, 2019 (UBC) 
+
+#### More coming soon!

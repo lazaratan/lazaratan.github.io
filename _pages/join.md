@@ -39,7 +39,6 @@ We welcome Master's students interested in:
 
 We offer research opportunities for motivated undergraduates through:
 - **Summer research**: Paid summer positions
-- **Honors theses**: Year-long research projects
 - **Volunteer positions**: Gain research experience
 
 **Requirements**:

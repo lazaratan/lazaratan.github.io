@@ -8,7 +8,7 @@ nav_order: 2
 
 The Atanackovic Lab focuses on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data. Our research spans multiple domains at the intersection of artificial intelligence and biology.
 
-# Generative AI
+# **Generative AI**
 
 Our work in generative models focuses on developing novel approaches to model complex and high-dimensional dsitributions from data.
 
@@ -18,7 +18,7 @@ Our work in generative models focuses on developing novel approaches to model co
 - **Generative Flow Networks (GFlowNets)**: Learning to sample from complex discrete distributions
 
 
-# Systems Biology
+# **Systems Biology**
 
 We develop computational methods that help us decode and understand complex biological systems at multiple scales, from molecular interactions to cellular dynamics.
 

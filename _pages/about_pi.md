@@ -12,7 +12,7 @@ During this time, I was a graduate research student at the [Vector Institute](ht
 
 My research focuses on developing machine learning methods for understanding and modelling natural (physical) systems from data, with a particular focus on cellular and molecular biology. My interests include generative modelling (flows and diffusion), deep learning, causality, single-cell biology, and recently, proteins & molecules.
 
-## Research Interests
+## **Research Interests**
 
 - **Generative AI**: Flow models, diffusion models, and generative flow networks
 - **Systems Biology**: Single-cell analysis, gene regulatory networks, and cellular dynamics
@@ -20,7 +20,7 @@ My research focuses on developing machine learning methods for understanding and
 - **Deep Learning**: Neural network architectures for biological data
 - **Protein & Molecular Modeling**: Computational approaches to understanding molecular structures and interactions
 
-## Education & Experience
+## **Education & Experience**
 
 - **Postdoc** at the Broad Institute of MIT-Harvard (Eric & Wendy Schmidt Center)
 - **Ph.D.** in Electrical & Computer Engineering, University of Toronto
@@ -29,9 +29,3 @@ My research focuses on developing machine learning methods for understanding and
 - **Research Intern** at Recursion Pharmaceuticals / Valence Labs
 - **Research Intern** at Deep Genomics
 - **Research Intern** at Mila - Quebec AI Institute
-
-## Contact
-
-Feel free to reach out for collaborations or if you have any questions about my work!
-
-- **Email**: l.atanackovic at mail.utoronto.ca

@@ -8,7 +8,7 @@ nav_order: 3
 
 We're always looking for talented and motivated students to join our research group! The Atanackovic Lab offers exciting opportunities at the intersection of machine learning and biology.
 
-#### PhD Students
+#### **PhD Students**
 
 We're looking for PhD students with strong backgrounds in:
 - **Computer Science/Engineering**: Machine learning, deep learning, statistics, programming
@@ -23,7 +23,7 @@ We're looking for PhD students with strong backgrounds in:
 - Publication record
 - Passion for interdisciplinary research
 
-#### Masters Students
+#### **Masters Students**
 
 We welcome Master's students interested in:
 - Thesis-based research projects
@@ -36,7 +36,7 @@ We welcome Master's students interested in:
 - Interest in machine learning and/or biology
 - Commitment to research excellence
 
-#### Undergraduate Students
+#### **Undergraduate Students**
 
 We offer research opportunities for motivated undergraduates through:
 - **Summer research**: Paid summer positions
@@ -48,7 +48,7 @@ We offer research opportunities for motivated undergraduates through:
 - Interest in learning about ML and biology
 - Commitment to regular lab meetings
 
-#### Application Process
+#### **Application Process**
 
 **For PhD and Masters Students**:
 1. **Review our research**: Familiarize yourself with our work and research directions

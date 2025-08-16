@@ -11,7 +11,7 @@ We'd love to hear from you! Whether you're interested in joining our lab, collab
 ### **Email**
 **Primary Contact**: l.atanackovic at mail.utoronto.ca
 
-## Connect With Us
+### **Connect With Us**
 
 Stay updated with our latest research, publications, and lab activities through our social media channels:
 

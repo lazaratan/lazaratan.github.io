@@ -271,8 +271,8 @@ body {
 
 .social-icons a {
   display: inline-block;
-  margin: 0 0.5em;
-  font-size: 2.5em;
+  margin: 0 0.8em;
+  font-size: 6em;
   color: var(--global-theme-color);
   transition: all 0.3s ease;
   text-decoration: none;
@@ -280,11 +280,11 @@ body {
 
 .social-icons a:hover {
   color: var(--global-hover-color);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
 
 .social-icons i {
-  padding: 0.8em;
+  padding: 1.2em;
   border-radius: 50%;
   background: rgba(var(--global-theme-color-rgb, 167, 93, 93), 0.1);
   transition: all 0.3s ease;

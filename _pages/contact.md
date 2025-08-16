@@ -22,7 +22,3 @@ Stay updated with our latest research, publications, and lab activities through 
 ## For Prospective Students
 
 If you're interested in joining our lab, please check out our [Join Us](/join/) page for detailed information about:
-- Available positions
-- Application requirements
-- Research opportunities
-- Lab culture

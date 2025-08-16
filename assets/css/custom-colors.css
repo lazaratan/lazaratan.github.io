@@ -263,6 +263,47 @@ body {
   padding-top: 2em;
 }
 
+/* Contact page social icons styling */
+.social-icons {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 0.5em;
+  font-size: 1.5em;
+  color: var(--global-theme-color);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: var(--global-hover-color);
+  transform: translateY(-2px);
+}
+
+.social-icons i {
+  padding: 0.5em;
+  border-radius: 50%;
+  background: rgba(var(--global-theme-color-rgb, 167, 93, 93), 0.1);
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover i {
+  background: rgba(var(--global-theme-color-rgb, 167, 93, 93), 0.2);
+  transform: scale(1.1);
+}
+
+/* Dark mode adjustments for social icons */
+html[data-theme="dark"] .social-icons i {
+  background: rgba(199, 191, 255, 0.1);
+}
+
+html[data-theme="dark"] .social-icons a:hover i {
+  background: rgba(199, 191, 255, 0.2);
+}
+
 @media (max-width: 900px) {
   .fixed-sidebar {
     display: flex;

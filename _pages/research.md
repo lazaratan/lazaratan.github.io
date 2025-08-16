@@ -17,11 +17,6 @@ Our work in generative models focuses on developing novel approaches to model co
 - **Diffusion Models**: Score-based generative models for molecular structures
 - **Generative Flow Networks (GFlowNets)**: Learning to sample from complex discrete distributions
 
-#### Applications:
-- Single-cell gene expression modeling
-- Drug discovery and molecular design
-- Synthetic data generation for biological research
-- Protein structure generation and design
 
 # Systems Biology
 
@@ -33,13 +28,6 @@ We develop computational methods that help us decode and understand complex biol
 - **Cellular Dynamics**: Modeling temporal changes in cellular states
 - **Perturbation Response Prediction and Modelling**: Understanding how interventions affect biological systems
 
-
-# Current Projects
-
-- **Single-Cell Perturbation Modeling**: Predicting cellular responses to interventions
-- **Gene Regulatory Network Inference**: Decoding the genetic programs of cells
-- **Virtual Cell Modeling**: Creating computational models of cellular behavior
-- **Protein Design**: AI-driven protein engineering for therapeutic applications
 
 ---
 

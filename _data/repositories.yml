@@ -9,6 +9,7 @@ github_repos:
   - lazaratan/meta-flow-matching
   - lazaratan/dyn-gfn
   - necludov/super-diffusion
+  - atong01/conditional-flow-matching
   - recursionpharma/gflownet
   #- lazaratan/gflownet-generalization
 

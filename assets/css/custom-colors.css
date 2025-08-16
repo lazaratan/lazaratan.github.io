@@ -225,6 +225,44 @@ a:hover, a:focus {
   margin-top: 5.5em;
 }
 
+/* Add consistent top spacing for all pages */
+.page-content {
+  padding-top: 2em;
+}
+
+/* Ensure proper spacing from navbar for all pages */
+main {
+  padding-top: 2em;
+}
+
+/* Add top margin to page titles and content */
+.page h1:first-of-type,
+.page h2:first-of-type,
+.page h3:first-of-type {
+  margin-top: 2em;
+}
+
+/* Specific spacing for different page types */
+.layout-page .page-content,
+.layout-page main {
+  padding-top: 2em;
+}
+
+/* Ensure content doesn't overlap with fixed navbar */
+body {
+  padding-top: 0;
+}
+
+/* Add top margin to main content areas */
+.container {
+  padding-top: 2em;
+}
+
+/* Specific spacing for the about layout */
+.layout-about .main-content {
+  padding-top: 2em;
+}
+
 @media (max-width: 900px) {
   .fixed-sidebar {
     display: flex;
@@ -308,5 +346,27 @@ a:hover, a:focus {
   .profile-badge-info {
     line-height: 1.3;
     margin-top: 0.2em;
+  }
+  
+  /* Mobile spacing adjustments */
+  .page-content,
+  main,
+  .container {
+    padding-top: 1.5em;
+  }
+  
+  .page h1:first-of-type,
+  .page h2:first-of-type,
+  .page h3:first-of-type {
+    margin-top: 1.5em;
+  }
+  
+  .layout-page .page-content,
+  .layout-page main {
+    padding-top: 1.5em;
+  }
+  
+  .layout-about .main-content {
+    padding-top: 1.5em;
   }
 } 

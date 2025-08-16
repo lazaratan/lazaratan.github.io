@@ -21,10 +21,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks: true
 ---
 
- I am a Ph.D. Candidate at the <a href='https://www.utoronto.ca/'>University of Toronto</a> in <a href='https://www.ece.utoronto.ca/'>The Department of Electrical & Computer Engineering</a> and the <a href='https://vectorinstitute.ai/'>Vector Institute</a>.
+# Atanackovic Lab
 
-I am a member of the <a href='https://psi.toronto.edu/'>Probabilistic and Statistical Inference Group</a> supervised by <a href='https://psi.toronto.edu/~frey/'>Brendan Frey</a> and co-supervised by <a href='https://wanglab.ai/people.html'>Bo Wang</a>. Previously, I was a research intern at <a href='https://www.recursion.com/'>Recursion Pharmaceuticals</a> / <a href='https://www.valencelabs.com/'>Valence Labs</a>, <a href='https://www.deepgenomics.com/'>Deep Genomics</a>, and <a href='https://mila.quebec/en/'>Mila - Quebec AI Institute</a>.
+Welcome to the **Atanackovic Lab** at the University of Toronto! We are a research group focused on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data, with a particular emphasis on cellular and molecular biology.
 
-My research focuses on developing machine learning methods for understanding and modelling natural (physical) systems from data, with a particular focus on cellular and molecular biology. My interests include generative modelling (flows and diffusion), deep learning, causality, single-cell biology, and recently, proteins & molecules.
+Our research spans generative modeling (flows and diffusion), deep learning, causality, single-cell biology, and protein & molecule analysis. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI.
 
-Feel free to contact me for collaborations or if you have any questions about my work!
+**Interested in joining our lab?** Check out our [Research](/research/) areas and learn how to [Join Us](/join-us/) for exciting opportunities at the intersection of machine learning and biology.
+
+Feel free to [contact us](/about/) for collaborations or if you have any questions about our work!

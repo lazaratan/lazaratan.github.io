@@ -1,11 +1,12 @@
 ---
 layout: page
-permalink: /teaching/
 title: Teaching
-description:
+permalink: /teaching/
 nav: true
-nav_order: 5
+nav_order: 6
 ---
+
+# Coming Soon!
 
 **Teaching Assistant**
 

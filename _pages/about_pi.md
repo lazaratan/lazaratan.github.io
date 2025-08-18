@@ -26,6 +26,6 @@ My research focuses on developing machine learning methods for understanding and
 - **Ph.D.** in Electrical & Computer Engineering, University of Toronto
 - **M.A.Sc.** in Electrical & Computer Engineering, University of British Columbia
 - **B.A.Sc.** in Electrical Engineering, University of British Columbia
-- **Research Intern** at Recursion Pharmaceuticals / Valence Labs
-- **Research Intern** at Deep Genomics
+- **Machine Learning Research Intern** at Recursion Pharmaceuticals / Valence Labs
+- **Machine Learning Intern** at Deep Genomics
 - **Research Intern** at Mila - Quebec AI Institute

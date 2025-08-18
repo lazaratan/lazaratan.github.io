@@ -313,18 +313,19 @@ html[data-theme="dark"] .social-icons a:hover i {
 /* Lab name accent color styling */
 .navbar-brand .font-weight-bold,
 .navbar-brand .font-weight-lighter {
-  color: var(--global-theme-color) !important;
+  color: inherit !important;
+  font-weight: normal !important;
 }
 
 /* Target the specific text "AI × Biosystems" */
 .navbar-brand .font-weight-lighter:contains("AI × Biosystems"),
 .navbar-brand .font-weight-lighter {
-  color: var(--global-theme-color) !important;
+  color: inherit !important;
 }
 
 /* Alternative approach using CSS selectors */
 .navbar-brand .font-weight-lighter {
-  color: var(--global-theme-color) !important;
+  color: inherit !important;
 }
 
 /* Ensure the × symbol is properly styled */

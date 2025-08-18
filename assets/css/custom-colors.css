@@ -310,6 +310,41 @@ html[data-theme="dark"] .social-icons a:hover i {
   background: rgba(199, 191, 255, 0.2);
 }
 
+/* Lab name accent color styling */
+.navbar-brand .font-weight-bold,
+.navbar-brand .font-weight-lighter {
+  color: var(--global-theme-color) !important;
+}
+
+/* Target the specific text "AI × Biosystems" */
+.navbar-brand .font-weight-lighter:contains("AI × Biosystems"),
+.navbar-brand .font-weight-lighter {
+  color: var(--global-theme-color) !important;
+}
+
+/* Alternative approach using CSS selectors */
+.navbar-brand .font-weight-lighter {
+  color: var(--global-theme-color) !important;
+}
+
+/* Ensure the × symbol is properly styled */
+.navbar-brand .font-weight-lighter .math-symbol {
+  color: var(--global-theme-color) !important;
+  font-weight: bold;
+}
+
+/* Lab name accent styling - the main approach */
+.lab-name-accent {
+  color: var(--global-theme-color) !important;
+  font-weight: 600;
+}
+
+/* Ensure the × symbol in the lab name is properly styled */
+.lab-name-accent .math-symbol {
+  color: var(--global-theme-color) !important;
+  font-weight: bold;
+}
+
 @media (max-width: 900px) {
   .fixed-sidebar {
     display: flex;

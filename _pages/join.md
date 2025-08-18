@@ -38,9 +38,7 @@ We welcome Master's students interested in:
 
 #### **Undergraduate Students**
 
-We offer research opportunities for motivated undergraduates through:
-- **Summer research**: Paid summer positions
-- **Volunteer positions**: Gain research experience
+We offer research opportunities for motivated undergraduates!
 
 **Requirements**:
 - Strong academic performance

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Join Us!
-permalink: /join us!/
+permalink: /join/
 nav: true
 nav_order: 3
 ---

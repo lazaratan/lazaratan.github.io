@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: The AI × Biosystems Lab # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: The
 middle_name: AI × Biosystems
 last_name: Lab

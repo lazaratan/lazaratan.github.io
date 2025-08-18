@@ -22,9 +22,8 @@ invited_talks: true
 ---
 
 # The <span class="lab-name-accent">AI × Biosystems</span> Lab
-## Atanackovic Lab
 
-Welcome to the **<span class="lab-name-accent">Atanackovic</span> Lab** at the University of Toronto! We are a research group focused on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data, with a particular emphasis on cellular and molecular biology.
+Welcome to the **<span class="lab-name-accent">Atanackovic</span> Lab**! We are a research group focused on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data, with a particular emphasis on cellular and molecular biology.
 
 Our research spans generative modeling (flows and diffusion), deep learning, causality, single-cell biology, and protein & molecule analysis. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI.
 

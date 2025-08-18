@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-The Atanackovic Lab focuses on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data. Our research spans multiple domains at the intersection of artificial intelligence and biology.
+The **<span class="lab-name-accent">Atanackovic</span> Lab** focuses on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data. Our research spans multiple domains at the intersection of artificial intelligence and biology.
 
 # <span class="lab-name-accent">Machine Learning</span>
 

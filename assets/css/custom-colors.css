@@ -320,4 +320,10 @@ html[data-theme="dark"] .social-icons a:hover i {
 .navbar-brand .font-weight-bold {
   font-weight: normal !important;
   color: inherit !important;
+}
+
+/* Make just the × symbol smaller */
+.times-symbol {
+  font-size: 0.7em;
+  color: var(--global-theme-color) !important;
 } 

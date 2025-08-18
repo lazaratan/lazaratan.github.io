@@ -54,11 +54,11 @@ We offer research opportunities for motivated undergraduates through:
 1. **Review our research**: Familiarize yourself with our work and research directions
 2. **Prepare application materials**:
    - CV/Resume
-   - Brief summary of your background
+   - Unofficial transcript
    - Brief proposal (less than 1 page) of a possible research project oriented around our lab's research direction(s)
    - Breif explanation of why you're interested in our lab
 3. **Contact us**: Send an email with all application materials
 
 **For Undergraduate Students**:
-1. **Contact us**: Send an email with your CV and a breif summary of your background and interests 
+1. **Contact us**: Send an email with your CV, unofficial transcript, and a breif summary of your background and interests 
 2. **Meet with us**: Discuss potential projects and fit

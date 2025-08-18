@@ -16,14 +16,14 @@ We're looking for PhD students with strong backgrounds in:
 - **Biology/Bioinformatics**: (Nice to haves) Background in biology, biochemistry, and/or health/medicine
 
 **Requirements**:
-- Strong programming skills (Python, PyTorch/Jax)
+- Strong programming skills (Python, PyTorch/JAX)
 - Solid mathematical foundation
-- Research experience in ML (knowledge in biology helps! But is not required) 
+- Research experience in ML (knowledge of biology helps but is not required)
 - Excellent communication and writing skills
 - Publication record
 - Passion for interdisciplinary research
 
-#### **Masters Students**
+#### **Master’s Students**
 
 We welcome Master's students interested in:
 - Thesis-based research projects
@@ -48,15 +48,15 @@ We offer research opportunities for motivated undergraduates!
 
 #### **Application Process**
 
-**For PhD and Masters Students**:
+**For PhD and Master's Students**:
 1. **Review our research**: Familiarize yourself with our work and research directions
 2. **Prepare application materials**:
    - CV/Resume
    - Unofficial transcript
    - Brief proposal (less than 1 page) of a possible research project oriented around our lab's research direction(s)
-   - Breif explanation of why you're interested in our lab
+   - Brief explanation of why you're interested in our lab
 3. **Contact us**: Send an email with all application materials
 
 **For Undergraduate Students**:
-1. **Contact us**: Send an email with your CV, unofficial transcript, and a breif summary of your background and interests 
+1. **Contact us**: Send an email with your CV, unofficial transcript, and a brief summary of your background and interests 
 2. **Meet with us**: Discuss potential projects and fit

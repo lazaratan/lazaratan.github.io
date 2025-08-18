@@ -10,7 +10,7 @@ The Atanackovic Lab focuses on developing cutting-edge machine learning methods 
 
 # <span class="lab-name-accent">Machine Learning</span>
 
-Our work in generative models focuses on developing novel approaches to model complex and high-dimensional dsitributions from data.
+Our work in machine learning focuses on developing novel approaches to model complex and high-dimensional systems from data.
 
 #### Key Areas:
 - **Generative Modeling**: Flow matching, diffusion models, generative flow networks (GFlowNets), and more

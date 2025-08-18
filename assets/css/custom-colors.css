@@ -316,8 +316,8 @@ html[data-theme="dark"] .social-icons a:hover i {
     display: none !important;
   }
   
-  /* Show mobile profile badge ONLY on home page */
-  .layout-about .mobile-profile-badge {
+  /* Show mobile profile badge on home page */
+  .mobile-profile-badge {
     display: flex !important;
     flex-direction: column;
     align-items: center;
@@ -330,8 +330,10 @@ html[data-theme="dark"] .social-icons a:hover i {
     max-width: 100%;
   }
   
-  /* Hide mobile profile badge on all other pages */
-  .mobile-profile-badge {
+  /* Hide mobile profile badge on non-home pages */
+  .layout-page .mobile-profile-badge,
+  .layout-cv .mobile-profile-badge,
+  .layout-bib .mobile-profile-badge {
     display: none !important;
   }
   

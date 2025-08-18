@@ -199,8 +199,8 @@ initTheme(localStorage.getItem("theme"));
 document.addEventListener("DOMContentLoaded", function () {
   const mode_toggle = document.getElementById("light-toggle");
   if (mode_toggle) {
-    mode_toggle.addEventListener("click", function () {
-      toggleTheme(localStorage.getItem("theme"));
-    });
+  mode_toggle.addEventListener("click", function () {
+    toggleTheme(localStorage.getItem("theme"));
+  });
   }
 });

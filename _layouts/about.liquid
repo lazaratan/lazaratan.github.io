@@ -23,7 +23,7 @@ layout: default
 
     <!-- Divider -->
     <hr class="section-divider">
-
+       
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -38,40 +38,40 @@ layout: default
     <!-- Invited talks -->
     {% if page.invited_talks %}
       <h2>Feature Talks</h2>
-      <ul class="talks-list">
-        {% for talk in site.data.talks %}
-        <li class="talk-item" style="font-size: 1rem; margin-bottom: 1rem;">
-          <h3 class="talk-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;">
-            {% if talk.url %}
+        <ul class="talks-list">
+            {% for talk in site.data.talks %}
+            <li class="talk-item" style="font-size: 1rem; margin-bottom: 1rem;">
+                <h3 class="talk-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;">
+                {% if talk.url %}
               <a href="{{ talk.url }}" target="_blank" class="talk-link">{{ talk.title }}</a>
-            {% else %}
+                {% else %}
               <span class="talk-title-no-link">{{ talk.title }}</span>
-            {% endif %}
-          </h3>
-          <p class="venue-year">
-            <a href="{{ talk.venue_url }}" target="_blank" class="venue-link">{{ talk.conference }}</a>
-            <span class="talk-year">{{ talk.year }}</span>
-          </p>
-        </li>
-        {% endfor %}
-      </ul>
+                {% endif %}
+                </h3>
+                <p class="venue-year">
+                <a href="{{ talk.venue_url }}" target="_blank" class="venue-link">{{ talk.conference }}</a> 
+                <span class="talk-year">{{ talk.year }}</span>
+                </p>
+            </li>
+            {% endfor %}
+        </ul>
     {% endif %}
 
     <!-- Divider -->
     <hr class="section-divider">
-
+    
     <!-- Software Packages (was Repositories) -->
     {% if site.data.repositories.github_repos %}
-      <h2>
+    <h2>
         <a href="https://github.com/{{ site.github_username }}" style="color: inherit">Software Packages</a>
-      </h2>
-      <div class="repositories d-flex flex-wrap justify-content-start" style="gap: 5px;">
+    </h2>
+    <div class="repositories d-flex flex-wrap justify-content-start" style="gap: 5px;">
         {% for repo in site.data.repositories.github_repos %}
         <div style="flex: 1 1 100%; max-width: 80%; box-sizing: border-box; margin-bottom: 5px;">
-          {% include repository/repo.liquid repository=repo %}
+            {% include repository/repo.liquid repository=repo %}
         </div>
         {% endfor %}
-      </div>
+    </div>
     {% endif %}
 
     <!-- Divider -->

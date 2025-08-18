@@ -350,16 +350,13 @@ html[data-theme="dark"] .social-icons a:hover i {
 .lab-name-accent {
   color: var(--global-theme-color) !important;
   font-weight: 600;
-  vertical-align: middle;
-  line-height: 1;
 }
 
 /* Specific styling for tensor product and other math symbols */
 .navbar-brand .lab-name-accent,
 .lab-name-accent {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 1.2;
+  color: var(--global-theme-color) !important;
+  font-weight: 600;
 }
 
 /* Smaller, centered tensor product symbol */

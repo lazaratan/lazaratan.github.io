@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Atanackovic Lab # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
+browser_title: Atanackovic Lab # the browser tab title
 first_name: The
 middle_name: AI × Biosystems
 last_name: Lab

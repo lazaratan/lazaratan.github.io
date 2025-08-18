@@ -314,4 +314,10 @@ html[data-theme="dark"] .social-icons a:hover i {
 .lab-name-accent {
   color: var(--global-theme-color) !important;
   font-weight: 600;
+}
+
+/* Ensure first name "The" is not bolded */
+.navbar-brand .font-weight-bold {
+  font-weight: normal !important;
+  color: inherit !important;
 } 

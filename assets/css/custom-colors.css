@@ -320,16 +320,4 @@ html[data-theme="dark"] .social-icons a:hover i {
 .navbar-brand .font-weight-bold {
   font-weight: normal !important;
   color: inherit !important;
-}
-
-/* Make just the × symbol smaller - very specific */
-.lab-name-accent .times-symbol,
-.times-symbol {
-  font-size: 0.5em !important;
-  color: var(--global-theme-color) !important;
-  display: inline-block !important;
-  font-weight: inherit !important;
-  vertical-align: middle !important;
-  position: relative !important;
-  top: -0.1em !important;
 } 

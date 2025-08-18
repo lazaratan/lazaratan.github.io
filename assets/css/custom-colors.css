@@ -310,6 +310,48 @@ html[data-theme="dark"] .social-icons a:hover i {
   background: rgba(199, 191, 255, 0.2);
 }
 
+/* Mobile layout - hide sidebar and adjust content */
+@media (max-width: 900px) {
+  .fixed-sidebar {
+    display: none !important;
+  }
+  
+  .main-content {
+    margin-left: 0 !important;
+    max-width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box !important;
+  }
+  
+  .main-content > .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Mobile spacing adjustments */
+  .page-content,
+  main,
+  .container {
+    padding-top: 1.5em !important;
+  }
+  
+  .page h1:first-of-type,
+  .page h2:first-of-type,
+  .page h3:first-of-type {
+    margin-top: 1.5em !important;
+  }
+  
+  .layout-page .page-content,
+  .layout-page main {
+    padding-top: 1.5em !important;
+  }
+  
+  .layout-about .main-content {
+    padding-top: 1.5em !important;
+  }
+}
+
 /* Lab name accent styling - simple and clean */
 .lab-name-accent {
   color: var(--global-theme-color) !important;

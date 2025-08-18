@@ -316,14 +316,19 @@ html[data-theme="dark"] .social-icons a:hover i {
     display: none !important;
   }
   
+  /* Override theme's fixed-top-nav padding */
+  body.fixed-top-nav {
+    padding-top: 0.1em !important;
+  }
+  
   /* Show mobile profile badge on home page */
   .mobile-profile-badge {
     display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0.1em 0 0.1em 0;
-    margin: 0 auto;
+    padding: 0.1em 0 0.1em 0 !important;
+    margin: 0 auto !important;
     text-align: center;
     background: transparent;
     width: 100%;
@@ -338,11 +343,11 @@ html[data-theme="dark"] .social-icons a:hover i {
   }
   
   .mobile-profile-badge-img {
-    width: 130px;
-    height: 130px;
-    border-radius: 40px;
-    margin-top: 0.1em;
-    margin-bottom: 0.1em;
+    width: 130px !important;
+    height: 130px !important;
+    border-radius: 40px !important;
+    margin-top: 0.1em !important;
+    margin-bottom: 0.1em !important;
     display: block;
     object-fit: cover;
     margin-left: auto;
@@ -350,17 +355,17 @@ html[data-theme="dark"] .social-icons a:hover i {
   }
   
   .mobile-profile-badge-name {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
     font-weight: bold;
-    margin-top: 0.1em;
+    margin-top: 0.1em !important;
     color: var(--global-theme-color);
   }
   
   .mobile-profile-badge-info {
-    font-size: 0.85em;
+    font-size: 0.85em !important;
     color: var(--global-text-color, #232323);
-    margin-top: 0.1em;
-    line-height: 1.2;
+    margin-top: 0.1em !important;
+    line-height: 1.2 !important;
     word-break: break-word;
   }
   
@@ -377,25 +382,41 @@ html[data-theme="dark"] .social-icons a:hover i {
     padding-right: 0 !important;
   }
   
-  /* Mobile spacing adjustments - ultra compact */
-  .page-content,
-  main,
-  .container {
+  /* Mobile spacing adjustments - ultra compact with high specificity */
+  body .page-content,
+  body main,
+  body .container {
     padding-top: 0.1em !important;
   }
   
-  .page h1:first-of-type,
-  .page h2:first-of-type,
-  .page h3:first-of-type {
+  body .page h1:first-of-type,
+  body .page h2:first-of-type,
+  body .page h3:first-of-type {
     margin-top: 0.1em !important;
   }
   
-  .layout-page .page-content,
-  .layout-page main {
+  body .layout-page .page-content,
+  body .layout-page main {
     padding-top: 0.1em !important;
   }
   
-  .layout-about .main-content {
+  body .layout-about .main-content {
+    padding-top: 0.1em !important;
+  }
+  
+  /* Force override any theme spacing */
+  body .page-content,
+  body main,
+  body .container,
+  body .main-content {
+    margin-top: 0.1em !important;
+    padding-top: 0.1em !important;
+  }
+  
+  /* Override any header margin/padding */
+  body .navbar + *,
+  body .navbar ~ * {
+    margin-top: 0.1em !important;
     padding-top: 0.1em !important;
   }
 }

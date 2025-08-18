@@ -22,7 +22,7 @@ My research focuses on developing machine learning methods for understanding and
 
 ## **Education & Experience**
 
-- **Postdoc** at the Broad Institute of MIT-Harvard (Eric & Wendy Schmidt Center)
+- **Postdoc** at the Broad Institute of MIT-Harvard, Eric & Wendy Schmidt Center
 - **Ph.D.** in Electrical & Computer Engineering, University of Toronto
 - **M.A.Sc.** in Electrical & Computer Engineering, University of British Columbia
 - **B.A.Sc.** in Electrical Engineering, University of British Columbia

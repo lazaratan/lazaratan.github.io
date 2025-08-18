@@ -324,6 +324,7 @@ html[data-theme="dark"] .social-icons a:hover i {
 
 /* Make just the × symbol smaller */
 .times-symbol {
-  font-size: 0.7em;
+  font-size: 0.6em !important;
   color: var(--global-theme-color) !important;
+  display: inline-block;
 } 

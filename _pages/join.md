@@ -59,4 +59,3 @@ We offer research opportunities for motivated undergraduates!
 
 **For Undergraduate Students**:
 1. **Contact us**: Send an email with your CV, unofficial transcript, and a brief summary of your background and interests 
-2. **Meet with us**: Discuss potential projects and fit

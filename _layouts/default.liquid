@@ -20,6 +20,11 @@
     <!-- Header -->
     {% include header.liquid %}
 
+    <!-- Mobile Profile Badge (hidden on desktop) -->
+    <div class="mobile-profile-badge" style="display: none;">
+      {% include profile-badge.liquid %}
+    </div>
+
     <aside class="fixed-sidebar">
       {% include profile-badge.liquid %}
     </aside>

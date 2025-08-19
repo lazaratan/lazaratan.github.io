@@ -9,7 +9,8 @@ nav_order: 6
 We'd love to hear from you! Whether you're interested in joining our lab, collaborating on research, or just want to learn more about our work, feel free to reach out.
 
 ### Email
-**Primary Contact**: l.atanackovic at mail.utoronto.ca
+**University of Alberta**: atanacko at ualberta.ca 
+**Broad Institute**: latanack at broadinstitute.org
 
 ### Connect
 Stay updated with our latest research, publications, and lab activities through our social media channels:

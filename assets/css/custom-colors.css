@@ -129,8 +129,8 @@ a:hover, a:focus {
 
 /* Main content area */
 .main-content {
-  margin-left: 280px !important;
-  max-width: calc(100% - 280px) !important;
+  margin-left: 290px !important;
+  max-width: calc(100% - 290px) !important;
   padding: 0.1em !important;
   box-sizing: border-box;
 }

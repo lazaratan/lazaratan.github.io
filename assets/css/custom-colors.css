@@ -205,6 +205,26 @@ a:hover, a:focus {
   line-height: 1.5;
 }
 
+/* Profile badge styling */
+.profile-badge-info {
+  line-height: 1.4;
+  margin-top: 0.5em;
+}
+
+.profile-badge-info strong {
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+.profile-badge-info strong:not(:first-child) {
+  margin-top: 0.3em;
+}
+
+/* Add spacing between current and previous positions */
+.profile-badge-info strong:nth-child(5) {
+  margin-top: 0.8em;
+}
+
 /* Restore line breaks for info items */
 .profile-badge-info br {
   display: initial;

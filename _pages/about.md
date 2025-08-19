@@ -23,7 +23,7 @@ invited_talks: true
 
 # The <span class="lab-name-accent">AI ⋅ Cell Systems</span> Lab
 
-**Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab! We are a research group focused on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data, with an emphasis on cellular and molecular biology.**
+Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab! **We are a research group focused on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data, with an emphasis on cellular and molecular systems.**
 
 Our research spans machine learning, generative modeling, causality, systems biology, single-cell biology, and protein & molecule design. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI.
 

@@ -131,15 +131,13 @@ a:hover, a:focus {
 .main-content {
   margin-left: 290px !important;
   max-width: calc(100% - 290px) !important;
-  padding: 0.1em !important;
+  padding: 2em;
   box-sizing: border-box;
 }
 
 .main-content > .container {
   padding-left: 0 !important;
   padding-right: 0 !important;
-  padding-top: 0 !important;
-  margin-top: 0 !important;
 }
 
 /* Profile badge styling */
@@ -460,4 +458,29 @@ body .fixed-sidebar .profile-badge-info br {
 /* Add extra spacing for double line breaks */
 body .fixed-sidebar .profile-badge-info br + br {
   margin-top: 0.2em !important;
+} 
+
+/* Main content area - override any theme CSS */
+body .main-content {
+  margin-left: 290px !important;
+  max-width: calc(100% - 290px) !important;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+body .main-content > .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Force override any Bootstrap or theme spacing */
+body .main-content .container {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Target the actual content area */
+body .main-content .container > * {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 } 

@@ -131,7 +131,7 @@ a:hover, a:focus {
 .main-content {
   margin-left: 280px;
   max-width: calc(100% - 280px);
-  padding: 1em;
+  padding: 0.2em;
   box-sizing: border-box;
 }
 

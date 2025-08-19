@@ -131,7 +131,7 @@ a:hover, a:focus {
 .main-content {
   margin-left: 280px;
   max-width: calc(100% - 280px);
-  padding: 2em;
+  padding: 1em;
   box-sizing: border-box;
 }
 
@@ -187,29 +187,29 @@ a:hover, a:focus {
 
 .profile-badge-info strong {
   display: block;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.05em;
   font-weight: 600;
 }
 
 .profile-badge-info strong:not(:first-child) {
-  margin-top: 0.1em;
+  margin-top: 0.05em;
 }
 
 /* Add spacing between current and previous positions */
 .profile-badge-info strong:nth-child(5) {
-  margin-top: 0.5em;
+  margin-top: 0.4em;
 }
 
 /* Ensure line breaks work properly */
 .profile-badge-info br {
   display: block;
   content: "";
-  margin-top: 0.1em;
+  margin-top: 0.05em;
 }
 
 /* Add extra spacing for double line breaks */
 .profile-badge-info br + br {
-  margin-top: 0.3em;
+  margin-top: 0.2em;
 }
 
 

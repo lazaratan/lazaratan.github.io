@@ -376,8 +376,18 @@ body .main-content .container > * {
 
 /* Mobile layout - hide sidebar and adjust content */
 @media (max-width: 900px) {
+  /* Force hide sidebar on mobile */
   .fixed-sidebar {
     display: none !important;
+  }
+  
+  /* Completely disable desktop layout on mobile */
+  body .fixed-sidebar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
   }
   
   /* Override theme's fixed-top-nav padding */
@@ -433,38 +443,59 @@ body .main-content .container > * {
     word-break: break-word;
   }
   
-  /* Reset main content for mobile */
-  .main-content {
+  /* Force override desktop layout for mobile */
+  body .main-content {
     margin-left: 0 !important;
     max-width: 100% !important;
+    width: 100% !important;
     padding: 1em !important;
     box-sizing: border-box !important;
   }
   
-  .main-content > .container {
+  body .main-content > .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  /* Override any Bootstrap or theme spacing */
+  body .main-content .container {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    width: 100% !important;
+  }
+  
+  /* Target the actual content area */
+  body .main-content .container > * {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    width: 100% !important;
   }
   
   /* Mobile spacing adjustments */
-  .page-content,
-  main,
-  .container {
+  body .page-content,
+  body main,
+  body .container {
     padding-top: 0.3em !important;
+    margin-left: 0 !important;
+    width: 100% !important;
   }
   
-  .page h1:first-of-type,
-  .page h2:first-of-type,
-  .page h3:first-of-type {
+  body .page h1:first-of-type,
+  body .page h2:first-of-type,
+  body .page h3:first-of-type {
     margin-top: 0.3em !important;
   }
   
-  .layout-page .page-content,
-  .layout-page main {
+  body .layout-page .page-content,
+  body .layout-page main {
     padding-top: 0.3em !important;
   }
   
-  .layout-about .main-content {
+  body .layout-about .main-content {
     padding-top: 0.3em !important;
   }
 } 

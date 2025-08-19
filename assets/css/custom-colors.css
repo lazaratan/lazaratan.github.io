@@ -474,9 +474,8 @@ body .main-content .container > * {
 
 /* News section styling - ensure scrollbar is visible on desktop */
 .news .table-responsive {
-  max-height: 60vh;
+  max-height: 45vh;
   overflow-y: auto;
-  border: 1px solid var(--global-divider-color);
   border-radius: 8px;
   padding: 0.5em;
 }
@@ -504,4 +503,11 @@ body .main-content .container > * {
 .news .table-responsive {
   scrollbar-width: thin;
   scrollbar-color: var(--global-theme-color) var(--global-bg-color);
+} 
+
+/* Mobile news height - show 2 items before scroll */
+@media (max-width: 900px) {
+  .news .table-responsive {
+    max-height: 35vh;
+  }
 } 

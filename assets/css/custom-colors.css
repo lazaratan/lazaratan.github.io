@@ -104,22 +104,21 @@ a:hover, a:focus {
 }
 
 /** Sidebar and main content layout - cleaned up **/
+/* Fixed sidebar layout for desktop */
 .fixed-sidebar {
   position: fixed;
-  top: 0;
+  top: 56px;
   left: 0;
-  width: 270px;
-  max-width: 270px;
-  min-width: 220px;
-  height: 100vh;
-  background: var(--global-bg-color, #fff);
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  box-shadow: 2px 0 8px rgba(50,30,80,0.04);
+  width: 350px;
+  height: calc(100vh - 56px);
+  background: var(--global-bg-color);
+  border-right: 1px solid var(--global-divider-color);
+  overflow-y: auto;
+  z-index: 1000;
+  padding: 2em 1.5em;
+  box-sizing: border-box;
 }
+
 .fixed-sidebar .profile-badge-name {
   color: var(--global-theme-color) !important;
   font-weight: bold;
@@ -128,13 +127,12 @@ a:hover, a:focus {
   text-align: center;
 }
 
+/* Main content area */
 .main-content {
-  margin-left: 250px;
-  max-width: 900px;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
+  margin-left: 350px;
+  max-width: calc(100% - 350px);
+  padding: 2em;
+  box-sizing: border-box;
 }
 
 .main-content > .container {
@@ -142,16 +140,15 @@ a:hover, a:focus {
   padding-right: 0 !important;
 }
 
+/* Profile badge styling */
 .profile-badge {
-  width: 260px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 0 auto;
-  padding: 3em;
   text-align: center;
+  max-width: 100%;
+  word-break: break-word;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  line-height: 1.5;
 }
 
 .profile-badge-img {
@@ -167,72 +164,32 @@ a:hover, a:focus {
   align-items: center;
 }
 
-.profile-badge-name,
-.profile-badge-info {
-  width: 100%;
-  text-align: center;
-  box-sizing: border-box;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .profile-badge-name {
   color: var(--global-theme-color);
   font-weight: bold;
   margin-top: 0.7em;
   font-size: 1.1em;
   text-align: center;
-  max-width: 320px;
+  max-width: 100%;
+  word-break: break-word;
 }
 
-.profile-badge-info {
-  text-align: center;
-  font-size: 0.85em;
-  color: var(--global-text-color, #232323);
-  width: 100%;
-  max-width: 320px;
-  word-break: break-all;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  line-height: 1.5;
-}
-
-/* Profile badge styling */
 .profile-badge-info {
   line-height: 1.4;
   margin-top: 0.5em;
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
-}
-
-.profile-badge-info strong {
-  display: inline;
-  margin-bottom: 0;
-}
-
-.profile-badge-info br {
-  display: block;
-  content: "";
-  margin-top: 0.2em;
-}
-
-/* Add spacing between current and previous positions */
-.profile-badge-info br + br {
-  margin-top: 0.5em;
+  max-width: 100%;
+  text-align: left;
+  font-size: 0.85em;
+  color: var(--global-text-color, #232323);
 }
 
 .profile-badge-info strong {
   display: block;
   margin-bottom: 0.2em;
+  font-weight: 600;
 }
 
 .profile-badge-info strong:not(:first-child) {
@@ -244,15 +201,19 @@ a:hover, a:focus {
   margin-top: 0.8em;
 }
 
-/* Restore line breaks for info items */
+/* Ensure line breaks work properly */
 .profile-badge-info br {
-  display: initial;
+  display: block;
+  content: "";
+  margin-top: 0.2em;
 }
 
-.profile-badge-info strong {
-  display: block;
-  margin-bottom: 0.2em;
+/* Add extra spacing for double line breaks */
+.profile-badge-info br + br {
+  margin-top: 0.5em;
 }
+
+
 
 .post-title {
   margin-bottom: 0.5em;

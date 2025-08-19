@@ -213,43 +213,9 @@ a:hover, a:focus {
   margin-top: 5.5em;
 }
 
-/* Add consistent top spacing for all pages */
-.page-content {
-  padding-top: 2em;
-}
 
-/* Ensure proper spacing from navbar for all pages */
-main {
-  padding-top: 2em;
-}
 
-/* Add top margin to page titles and content */
-.page h1:first-of-type,
-.page h2:first-of-type,
-.page h3:first-of-type {
-  margin-top: 2em;
-}
 
-/* Specific spacing for different page types */
-.layout-page .page-content,
-.layout-page main {
-  padding-top: 2em;
-}
-
-/* Ensure content doesn't overlap with fixed navbar */
-body {
-  padding-top: 0;
-}
-
-/* Add top margin to main content areas */
-.container {
-  padding-top: 2em;
-}
-
-/* Specific spacing for the about layout */
-.layout-about .main-content {
-  padding-top: 2em;
-}
 
 /* Contact page social icons styling */
 .social-icons {
@@ -369,7 +335,7 @@ body .main-content .container > * {
   .main-content {
     margin-left: 290px;
     max-width: calc(100% - 290px);
-    padding: 1em;
+    padding: 0.5em;
     box-sizing: border-box;
   }
 
@@ -504,4 +470,38 @@ body .main-content .container > * {
   body .layout-about .main-content {
     padding-top: 0.3em !important;
   }
+} 
+
+/* News section styling - ensure scrollbar is visible on desktop */
+.news .table-responsive {
+  max-height: 60vh;
+  overflow-y: auto;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
+/* Custom scrollbar styling for webkit browsers */
+.news .table-responsive::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news .table-responsive::-webkit-scrollbar-track {
+  background: var(--global-bg-color);
+  border-radius: 4px;
+}
+
+.news .table-responsive::-webkit-scrollbar-thumb {
+  background: var(--global-theme-color);
+  border-radius: 4px;
+}
+
+.news .table-responsive::-webkit-scrollbar-thumb:hover {
+  background: var(--global-hover-color);
+}
+
+/* Firefox scrollbar styling */
+.news .table-responsive {
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-theme-color) var(--global-bg-color);
 } 

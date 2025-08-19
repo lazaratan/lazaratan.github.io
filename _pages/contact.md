@@ -10,6 +10,7 @@ We'd love to hear from you! Whether you're interested in joining our lab, collab
 
 ### Email
 **University of Alberta**: atanacko at ualberta.ca 
+
 **Broad Institute**: latanack at broadinstitute.org
 
 ### Connect

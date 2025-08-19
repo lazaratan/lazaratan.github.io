@@ -309,117 +309,6 @@ html[data-theme="dark"] .social-icons a:hover i {
   background: rgba(199, 191, 255, 0.2);
 }
 
-/* Mobile layout - hide sidebar and adjust content */
-@media (max-width: 900px) {
-  .fixed-sidebar {
-    display: none !important;
-  }
-  
-  /* Override theme's fixed-top-nav padding */
-  body.fixed-top-nav {
-    padding-top: 0.1em !important;
-  }
-  
-  /* Show mobile profile badge on home page */
-  .mobile-profile-badge {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.1em 0 0.1em 0 !important;
-    margin: 0 auto !important;
-    text-align: center;
-    background: transparent;
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  /* Hide mobile profile badge on non-home pages */
-  .layout-page .mobile-profile-badge,
-  .layout-cv .mobile-profile-badge,
-  .layout-bib .mobile-profile-badge {
-    display: none !important;
-  }
-  
-  .mobile-profile-badge-img {
-    width: 130px !important;
-    height: 130px !important;
-    border-radius: 40px !important;
-    margin-top: 0.1em !important;
-    margin-bottom: 0.1em !important;
-    display: block;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .mobile-profile-badge-name {
-    font-size: 1.5em !important;
-    font-weight: bold;
-    margin-top: 0.1em !important;
-    color: var(--global-theme-color);
-  }
-  
-  .mobile-profile-badge-info {
-    font-size: 0.85em !important;
-    color: var(--global-text-color, #232323);
-    margin-top: 0.1em !important;
-    line-height: 1.2 !important;
-    word-break: break-word;
-  }
-  
-  .main-content {
-    margin-left: 0 !important;
-    max-width: 100% !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    box-sizing: border-box !important;
-  }
-  
-  .main-content > .container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  
-  /* Mobile spacing adjustments - ultra compact with high specificity */
-  body .page-content,
-  body main,
-  body .container {
-    padding-top: 0.1em !important;
-  }
-  
-  body .page h1:first-of-type,
-  body .page h2:first-of-type,
-  body .page h3:first-of-type {
-    margin-top: 0.1em !important;
-  }
-  
-  body .layout-page .page-content,
-  body .layout-page main {
-    padding-top: 0.1em !important;
-  }
-  
-  body .layout-about .main-content {
-    padding-top: 0.1em !important;
-  }
-  
-  /* Force override any theme spacing */
-  body .page-content,
-  body main,
-  body .container,
-  body .main-content {
-    margin-top: 0.1em !important;
-    padding-top: 0.1em !important;
-  }
-  
-  /* Override any header margin/padding */
-  body .navbar + *,
-  body .navbar ~ * {
-    margin-top: 0.1em !important;
-    padding-top: 0.1em !important;
-  }
-}
-
 /* Lab name accent styling - simple and clean */
 .lab-name-accent {
   color: var(--global-theme-color) !important;
@@ -483,4 +372,99 @@ body .main-content .container {
 body .main-content .container > * {
   margin-left: 0 !important;
   padding-left: 0 !important;
+} 
+
+/* Mobile layout - hide sidebar and adjust content */
+@media (max-width: 900px) {
+  .fixed-sidebar {
+    display: none !important;
+  }
+  
+  /* Override theme's fixed-top-nav padding */
+  body.fixed-top-nav {
+    padding-top: 0.1em !important;
+  }
+  
+  /* Show mobile profile badge on home page */
+  .mobile-profile-badge {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1em 0 0.1em 0 !important;
+    margin: 0 auto !important;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Hide mobile profile badge on non-home pages */
+  .layout-page .mobile-profile-badge,
+  .layout-cv .mobile-profile-badge,
+  .layout-bib .mobile-profile-badge {
+    display: none !important;
+  }
+  
+  .mobile-profile-badge-img {
+    width: 130px !important;
+    height: 130px !important;
+    border-radius: 40px !important;
+    margin-top: 0.1em !important;
+    margin-bottom: 0.1em !important;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mobile-profile-badge-name {
+    font-size: 1.5em !important;
+    font-weight: bold;
+    margin-top: 0.1em !important;
+    color: var(--global-theme-color);
+  }
+  
+  .mobile-profile-badge-info {
+    font-size: 0.85em !important;
+    color: var(--global-text-color, #232323);
+    margin-top: 0.1em !important;
+    line-height: 1.2 !important;
+    word-break: break-word;
+  }
+  
+  /* Reset main content for mobile */
+  .main-content {
+    margin-left: 0 !important;
+    max-width: 100% !important;
+    padding: 1em !important;
+    box-sizing: border-box !important;
+  }
+  
+  .main-content > .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* Mobile spacing adjustments */
+  .page-content,
+  main,
+  .container {
+    padding-top: 0.3em !important;
+  }
+  
+  .page h1:first-of-type,
+  .page h2:first-of-type,
+  .page h3:first-of-type {
+    margin-top: 0.3em !important;
+  }
+  
+  .layout-page .page-content,
+  .layout-page main {
+    padding-top: 0.3em !important;
+  }
+  
+  .layout-about .main-content {
+    padding-top: 0.3em !important;
+  }
 } 

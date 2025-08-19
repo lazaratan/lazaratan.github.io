@@ -181,7 +181,7 @@ a:hover, a:focus {
   overflow-wrap: break-word;
   hyphens: auto;
   max-width: 100%;
-  text-align: left;
+  text-align: center;
   font-size: 0.85em;
   color: var(--global-text-color, #232323);
 }

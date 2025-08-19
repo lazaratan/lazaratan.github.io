@@ -127,18 +127,7 @@ a:hover, a:focus {
   text-align: center;
 }
 
-/* Main content area */
-.main-content {
-  margin-left: 290px !important;
-  max-width: calc(100% - 290px) !important;
-  padding: 2em;
-  box-sizing: border-box;
-}
 
-.main-content > .container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
 
 /* Profile badge styling */
 .profile-badge {
@@ -373,6 +362,22 @@ body .main-content .container > * {
   margin-left: 0 !important;
   padding-left: 0 !important;
 } 
+
+/* Desktop layout - only apply on larger screens */
+@media (min-width: 901px) {
+  /* Main content area */
+  .main-content {
+    margin-left: 290px;
+    max-width: calc(100% - 290px);
+    padding: 2em;
+    box-sizing: border-box;
+  }
+
+  .main-content > .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 /* Mobile layout - hide sidebar and adjust content */
 @media (max-width: 900px) {

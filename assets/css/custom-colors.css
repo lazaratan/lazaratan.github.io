@@ -209,6 +209,25 @@ a:hover, a:focus {
 .profile-badge-info {
   line-height: 1.4;
   margin-top: 0.5em;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.profile-badge-info strong {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.profile-badge-info br {
+  display: block;
+  content: "";
+  margin-top: 0.2em;
+}
+
+/* Add spacing between current and previous positions */
+.profile-badge-info br + br {
+  margin-top: 0.5em;
 }
 
 .profile-badge-info strong {

@@ -187,29 +187,29 @@ a:hover, a:focus {
 
 .profile-badge-info strong {
   display: block;
-  margin-bottom: 0.05em;
+  margin-bottom: 0.05em !important;
   font-weight: 600;
 }
 
 .profile-badge-info strong:not(:first-child) {
-  margin-top: 0.05em;
+  margin-top: 0.05em !important;
 }
 
 /* Add spacing between current and previous positions */
 .profile-badge-info strong:nth-child(5) {
-  margin-top: 0.4em;
+  margin-top: 0.4em !important;
 }
 
 /* Ensure line breaks work properly */
 .profile-badge-info br {
   display: block;
   content: "";
-  margin-top: 0.05em;
+  margin-top: 0.05em !important;
 }
 
 /* Add extra spacing for double line breaks */
 .profile-badge-info br + br {
-  margin-top: 0.2em;
+  margin-top: 0.2em !important;
 }
 
 

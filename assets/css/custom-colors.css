@@ -431,3 +431,31 @@ html[data-theme="dark"] .social-icons a:hover i {
   font-weight: normal !important;
   color: inherit !important;
 } 
+
+/* Profile badge styling - high specificity to override theme */
+body .fixed-sidebar .profile-badge-info strong {
+  display: block !important;
+  margin-bottom: 0.05em !important;
+  font-weight: 600 !important;
+}
+
+body .fixed-sidebar .profile-badge-info strong:not(:first-child) {
+  margin-top: 0.05em !important;
+}
+
+/* Add spacing between current and previous positions */
+body .fixed-sidebar .profile-badge-info strong:nth-child(5) {
+  margin-top: 0.4em !important;
+}
+
+/* Ensure line breaks work properly */
+body .fixed-sidebar .profile-badge-info br {
+  display: block !important;
+  content: "" !important;
+  margin-top: 0.05em !important;
+}
+
+/* Add extra spacing for double line breaks */
+body .fixed-sidebar .profile-badge-info br + br {
+  margin-top: 0.2em !important;
+} 

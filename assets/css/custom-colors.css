@@ -472,15 +472,15 @@ body .main-content .container > * {
   }
 } 
 
-/* News section styling - ensure scrollbar is visible on desktop */
+/* News section styling - no scrollbar on dedicated news page */
 .news .table-responsive {
-  max-height: 30vh !important;
-  overflow-y: auto !important;
+  max-height: none !important;
+  overflow-y: visible !important;
   border-radius: 8px;
   padding: 0.5em;
 }
 
-/* Home page news section - ensure scrollbar works there too */
+/* Home page news section - ensure scrollbar works there */
 .post .news .table-responsive {
   max-height: 30vh !important;
   overflow-y: auto !important;
@@ -488,39 +488,33 @@ body .main-content .container > * {
   padding: 0.5em;
 }
 
-/* Custom scrollbar styling for webkit browsers */
-.news .table-responsive::-webkit-scrollbar,
+/* Custom scrollbar styling for webkit browsers - only on home page */
 .post .news .table-responsive::-webkit-scrollbar {
   width: 8px;
 }
 
-.news .table-responsive::-webkit-scrollbar-track,
 .post .news .table-responsive::-webkit-scrollbar-track {
   background: var(--global-bg-color);
   border-radius: 4px;
 }
 
-.news .table-responsive::-webkit-scrollbar-thumb,
 .post .news .table-responsive::-webkit-scrollbar-thumb {
   background: var(--global-theme-color);
   border-radius: 4px;
 }
 
-.news .table-responsive::-webkit-scrollbar-thumb:hover,
 .post .news .table-responsive::-webkit-scrollbar-thumb:hover {
   background: var(--global-hover-color);
 }
 
-/* Firefox scrollbar styling */
-.news .table-responsive,
+/* Firefox scrollbar styling - only on home page */
 .post .news .table-responsive {
   scrollbar-width: thin;
   scrollbar-color: var(--global-theme-color) var(--global-bg-color);
 }
 
-/* Mobile news height - show 2 items before scroll */
+/* Mobile news height - show 2 items before scroll on home page only */
 @media (max-width: 900px) {
-  .news .table-responsive,
   .post .news .table-responsive {
     max-height: 25vh !important;
   }

@@ -474,7 +474,7 @@ body .main-content .container > * {
 
 /* News section styling - ensure scrollbar is visible on desktop */
 .news .table-responsive {
-  max-height: 45vh;
+  max-height: 30vh;
   overflow-y: auto;
   border-radius: 8px;
   padding: 0.5em;

@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 browser_title: Atanackovic Lab # the browser tab title
 first_name: The
-middle_name: AI ⋅ Cell Systems
+middle_name: Atanackovic # AI ⋅ Cell Systems
 last_name: Lab
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

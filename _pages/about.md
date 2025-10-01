@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks: true
 ---
 
-# The <span class="lab-name-accent">AI ⋅ Cell Systems</span> Lab
+# The <span class="lab-name-accent">Atanackovic</span> Lab
 
 Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko)! **We are a research group focused on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data, with an emphasis on cellular and molecular systems.**
 

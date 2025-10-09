@@ -55,6 +55,7 @@
 
 <!-- Dark Mode -->
 {% if site.enable_darkmode %}
+  <script>if(!localStorage.getItem('theme')){localStorage.setItem('theme','light');}</script>
   <link
     defer
     rel="stylesheet"

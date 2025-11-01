@@ -14,7 +14,7 @@ github_repos:
   - recursionpharma/gflownet
   - kpetrovicc/curly-flow-matching
   - NoahElRimawiFine/StructureFlow
-  #- lazaratan/gflownet-generalization
+  - lazaratan/gflownet-generalization
 
   #- alshedivat/al-folio
   #- twbs/bootstrap

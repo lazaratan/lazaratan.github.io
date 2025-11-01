@@ -1,5 +1,8 @@
 github_users:
   - lazaratan
+  - NoahElRimawiFine
+  - kpetrovicc
+  - amorehead
   #- necludov
   #- atong01
   #- recursionpharma
@@ -12,9 +15,9 @@ github_repos:
   - necludov/super-diffusion
   - atong01/conditional-flow-matching
   - recursionpharma/gflownet
-  - kpetrovicc/curly-flow-matching
-  - NoahElRimawiFine/StructureFlow
-  - lazaratan/gflownet-generalization
+  #- kpetrovicc/curly-flow-matching
+  #- NoahElRimawiFine/StructureFlow
+  #- lazaratan/gflownet-generalization
 
   #- alshedivat/al-folio
   #- twbs/bootstrap

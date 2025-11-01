@@ -12,6 +12,8 @@ github_repos:
   - necludov/super-diffusion
   - atong01/conditional-flow-matching
   - recursionpharma/gflownet
+  - kpetrovicc/curly-flow-matching
+  - NoahElRimawiFine/StructureFlow
   #- lazaratan/gflownet-generalization
 
   #- alshedivat/al-folio

@@ -6,7 +6,9 @@ nav: true
 nav_order: 1
 ---
 
-Currently, I am a Postdoc at the [Eric & Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) of the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/). 
+I am an Assistant Professor at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko), cross-appointed in the [Department of Electrical & Computer Engineering](https://www.ualberta.ca/en/engineering/electrical-computer-engineering/index.html) and in the [Department of Biochemistry](https://www.ualberta.ca/en/biochemistry/index.html), and hold an Adjunct position in the [Department of Computing Science](https://www.ualberta.ca/en/computing-science/index.html).
+
+Previously, I was a Postdoc at the [Eric & Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) of the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/) where I worked with [Philippe Rigollet](https://math.mit.edu/~rigollet/). 
 
 I received my Ph.D. from the [University of Toronto](https://www.utoronto.ca/) in [The Department of Electrical & Computer Engineering](https://www.ece.utoronto.ca/). During this time, I was a graduate research student at the [Vector Institute](https://vectorinstitute.ai/) and a member of the [Probabilistic and Statistical Inference Group](https://psi.toronto.edu/) supervised by [Brendan Frey](https://psi.toronto.edu/~frey/) and co-supervised by [Bo Wang](https://wanglab.ai/people.html). I also spent time as a research intern at [Recursion Pharmaceuticals](https://www.recursion.com/) / [Valence Labs](https://www.valencelabs.com/), [Deep Genomics](https://www.deepgenomics.com/), and [Mila - Quebec AI Institute](https://mila.quebec/en/).
 

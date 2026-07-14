@@ -4,6 +4,7 @@ title: Teaching
 permalink: /teaching/
 nav: true
 nav_order: 5
+published: false
 ---
 
 #### Coming soon!

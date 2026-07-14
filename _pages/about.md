@@ -15,7 +15,7 @@ permalink: /
 #     l.atanackovic at mail.utoronto.ca
 
 social: true # includes social icons at the bottom of the page
-news: true # includes a list of news items
+news: false # hides the list of news items on the home page
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks: true

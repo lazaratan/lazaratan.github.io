@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 news: false # hides the list of news items on the home page
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-invited_talks: true
+invited_talks: false # hides the featured talks section
 ---
 
 # The <span class="lab-name-accent">Atanackovic</span> Lab

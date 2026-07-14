@@ -6,7 +6,9 @@ nav: true
 nav_order: 1
 ---
 
-I am an Assistant Professor at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko), cross-appointed in the [Department of Electrical & Computer Engineering](https://www.ualberta.ca/en/engineering/electrical-computer-engineering/index.html) and in the [Department of Biochemistry](https://www.ualberta.ca/en/biochemistry/index.html), and hold an Adjunct position in the [Department of Computing Science](https://www.ualberta.ca/en/computing-science/index.html).
+I am an Assistant Professor at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko), a Research Fellow at the [Alberta Machine Intelligence Institute (Amii)](https://www.amii.ca/people/lazar-atanackovic), and a [Canada CIFAR AI Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/). 
+
+I am cross-appointed in the [Department of Electrical & Computer Engineering](https://www.ualberta.ca/en/engineering/electrical-computer-engineering/index.html) and in the [Department of Biochemistry](https://www.ualberta.ca/en/biochemistry/index.html), and hold an Adjunct position in the [Department of Computing Science](https://www.ualberta.ca/en/computing-science/index.html).
 
 Previously, I was a Postdoc at the [Eric & Wendy Schmidt Center](https://www.ericandwendyschmidtcenter.org/) of the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/) where I worked with [Philippe Rigollet](https://math.mit.edu/~rigollet/). 
 

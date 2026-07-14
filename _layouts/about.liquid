@@ -10,33 +10,42 @@ layout: default
   <article>
     <div class="clearfix">{{ content }}</div>
 
-    <!-- Divider -->
-    <hr class="section-divider">
+    {% assign show_news = page.news and site.announcements.enabled %}
+    {% assign show_selected_papers = page.selected_papers %}
+    {% assign show_invited_talks = page.invited_talks %}
+    {% assign show_repositories = site.data.repositories.github_repos %}
+    {% assign show_social = page.social %}
+    {% assign has_rendered_section = false %}
 
     <!-- News -->
-    {% if page.news and site.announcements.enabled %}
+    {% if show_news %}
+      {% if has_rendered_section %}
+        <hr class="section-divider">
+      {% endif %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
+      {% assign has_rendered_section = true %}
     {% endif %}
-
-    <!-- Divider -->
-    <hr class="section-divider">
        
     <!-- Selected papers -->
-    {% if page.selected_papers %}
+    {% if show_selected_papers %}
+      {% if has_rendered_section %}
+        <hr class="section-divider">
+      {% endif %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
+      {% assign has_rendered_section = true %}
     {% endif %}
 
-    <!-- Divider -->
-    <hr class="section-divider">
-
     <!-- Invited talks -->
-    {% if page.invited_talks %}
+    {% if show_invited_talks %}
+      {% if has_rendered_section %}
+        <hr class="section-divider">
+      {% endif %}
       <h2>Feature Talks</h2>
         <ul class="talks-list">
             {% for talk in site.data.talks %}
@@ -55,13 +64,14 @@ layout: default
             </li>
             {% endfor %}
         </ul>
+      {% assign has_rendered_section = true %}
     {% endif %}
-
-    <!-- Divider -->
-    <hr class="section-divider">
     
     <!-- Software Packages (was Repositories) -->
-    {% if site.data.repositories.github_repos %}
+    {% if show_repositories %}
+    {% if has_rendered_section %}
+      <hr class="section-divider">
+    {% endif %}
     <h2>
         <a href="https://github.com/{{ site.github_username }}" style="color: inherit">Software Packages</a>
     </h2>
@@ -72,13 +82,14 @@ layout: default
         </div>
         {% endfor %}
     </div>
+    {% assign has_rendered_section = true %}
     {% endif %}
 
-    <!-- Divider -->
-    <hr class="section-divider">
-
     <!-- Social -->
-    {% if page.social %}
+    {% if show_social %}
+      {% if has_rendered_section %}
+        <hr class="section-divider">
+      {% endif %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
         <div class="contact-note">{{ site.contact_note }}</div>

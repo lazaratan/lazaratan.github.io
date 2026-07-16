@@ -34,4 +34,4 @@ Our research spans machine learning, generative modeling, causality, systems bio
 
 > 🔬 <span class="lab-name-accent">Interested in joining our lab</span>? Please fill out our [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSf_mLo5BbgXH81TEh5zgdaU1lPTmWVnj7bwR1-HOe89muh7LQ/viewform). 
 
-Have questions or want to collaborate? [Contact us](/about/).
+Have questions or want to collaborate? [Contact us](/contact/).

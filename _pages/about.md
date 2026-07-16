@@ -14,6 +14,8 @@ permalink: /
 #     Vector Institute<br>
 #     l.atanackovic at mail.utoronto.ca
 
+# Explore our [Research](/research/) areas and learn how to [Join Us](/join/) for opportunities at the intersection of machine learning and biology.
+
 social: true # includes social icons at the bottom of the page
 news: false # hides the list of news items on the home page
 latest_posts: false # includes a list of the newest posts
@@ -27,6 +29,6 @@ Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [Univ
 
 Our research spans machine learning, generative modeling, causality, systems biology, single-cell biology, and protein & molecule design. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI.
 
-<span class="lab-name-accent">Interested in joining our lab</span>? Explore our [Research](/research/) areas and learn how to [Join Us](/join/) for opportunities at the intersection of machine learning and biology.
+<span class="lab-name-accent">Interested in joining our lab</span>? Fille out this [application form](https://docs.google.com/forms/d/1Z3IiinIqRZ42OYLfuDCDeF7Upt7Gthb4ysLLzLee1Tk/edit)! 
 
 Have questions or want to collaborate? [Contact us](/about/).

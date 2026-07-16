@@ -2,7 +2,7 @@
 layout: page
 title: Join Us!
 permalink: /join/
-nav: true
+nav: false
 nav_order: 3
 ---
 

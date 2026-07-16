@@ -80,14 +80,12 @@ html[data-theme="dark"] .layout-about .post article blockquote {
 /* Modern, glassy navbar */
 nav.navbar {
   background: rgba(255,255,255,0.75) !important;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 2px 12px rgba(50,30,80,0.07);
+  box-shadow: 0 1px 6px rgba(50,30,80,0.05);
   border-bottom: 1px solid var(--global-divider-color, #e5e5e5);
-  transition: background 0.3s, box-shadow 0.3s;
+  transition: background-color 0.2s, box-shadow 0.2s;
 }
 html[data-theme="dark"] nav.navbar {
   background: rgba(24,22,34,0.85) !important;
-  backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--global-divider-color, #3a3a4d);
 }
 
@@ -272,7 +270,7 @@ a:hover, a:focus {
   margin: 0;
   font-size: 2.5em;
   color: var(--global-theme-color);
-  transition: all 0.3s ease;
+  transition: color 0.2s ease, transform 0.2s ease;
   text-decoration: none;
   flex-shrink: 0;
 }
@@ -286,7 +284,7 @@ a:hover, a:focus {
   padding: 0.8em;
   border-radius: 50%;
   background: rgba(var(--global-theme-color-rgb, 167, 93, 93), 0.1);
-  transition: all 0.3s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .social-icons a:hover i {
@@ -301,6 +299,16 @@ html[data-theme="dark"] .social-icons i {
 
 html[data-theme="dark"] .social-icons a:hover i {
   background: rgba(199, 191, 255, 0.2);
+}
+
+/* Reduce motion cost for users who prefer less animation */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 /* Lab name accent styling - simple and clean */

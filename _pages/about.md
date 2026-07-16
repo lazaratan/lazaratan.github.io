@@ -21,14 +21,15 @@ news: false # hides the list of news items on the home page
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks: false # hides the featured talks section
+repositories: false # hides the software packages/github section
 ---
 
 # The <span class="lab-name-accent">Atanackovic</span> Lab
 
 Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko)! **We are a research group focused on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data, with an emphasis on cellular and molecular systems.**
 
-Our research spans machine learning, generative modeling, causality, systems biology, single-cell biology, and protein & molecule design. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI.
+Our research spans machine learning, generative modeling, causality, systems biology, single-cell biology, and protein & molecule design. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI. You can find our latest work and a full list of publications on [Google Scholar](https://scholar.google.com/citations?user=qhTWIh4AAAAJ).
 
-> <span class="lab-name-accent">Interested in joining our lab</span>? Fill out this [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSf_mLo5BbgXH81TEh5zgdaU1lPTmWVnj7bwR1-HOe89muh7LQ/viewform)! 
+> 🔬 <span class="lab-name-accent">Interested in joining our lab</span>? Please fill out our [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSf_mLo5BbgXH81TEh5zgdaU1lPTmWVnj7bwR1-HOe89muh7LQ/viewform). 
 
 Have questions or want to collaborate? [Contact us](/about/).

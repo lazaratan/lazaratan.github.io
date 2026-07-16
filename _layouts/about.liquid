@@ -13,7 +13,7 @@ layout: default
     {% assign show_news = page.news and site.announcements.enabled %}
     {% assign show_selected_papers = page.selected_papers %}
     {% assign show_invited_talks = page.invited_talks %}
-    {% assign show_repositories = site.data.repositories.github_repos %}
+    {% assign show_repositories = page.repositories and site.data.repositories.github_repos %}
     {% assign show_social = page.social %}
     {% assign has_rendered_section = false %}
 

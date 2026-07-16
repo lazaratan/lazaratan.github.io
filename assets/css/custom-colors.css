@@ -40,7 +40,7 @@ code, pre, kbd, samp {
 
 /* Standard markdown quote blocks (lines beginning with ">") */
 blockquote {
-  background: #f4e4dc !important;
+  background: #f9eee9 !important;
   border-left: 5px solid var(--global-theme-color) !important;
   border-radius: 12px !important;
   overflow: hidden;
@@ -52,7 +52,7 @@ blockquote {
 .post article blockquote,
 .post article .clearfix blockquote,
 .layout-about .post article blockquote {
-  background: #f4e4dc !important;
+  background: #f9eee9 !important;
   border-left: 5px solid var(--global-theme-color) !important;
   border-radius: 12px !important;
   overflow: hidden;
@@ -61,13 +61,13 @@ blockquote {
 }
 
 html[data-theme="dark"] blockquote {
-  background: #3b2b27 !important;
+  background: #4a3832 !important;
 }
 
 html[data-theme="dark"] .post article blockquote,
 html[data-theme="dark"] .post article .clearfix blockquote,
 html[data-theme="dark"] .layout-about .post article blockquote {
-  background: #3b2b27 !important;
+  background: #4a3832 !important;
 }
 
 /* Modern, glassy navbar */

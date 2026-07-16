@@ -43,11 +43,30 @@ blockquote {
   background: #f4e4dc !important;
   border-left: 5px solid var(--global-theme-color) !important;
   border-radius: 12px !important;
+  overflow: hidden;
+  font-size: 1rem !important;
+  padding: 1em !important;
+}
+
+/* Ensure quote styling applies inside the about/home layout content wrapper */
+.post article blockquote,
+.post article .clearfix blockquote,
+.layout-about .post article blockquote {
+  background: #f4e4dc !important;
+  border-left: 5px solid var(--global-theme-color) !important;
+  border-radius: 12px !important;
+  overflow: hidden;
   font-size: 1rem !important;
   padding: 1em !important;
 }
 
 html[data-theme="dark"] blockquote {
+  background: #3b2b27 !important;
+}
+
+html[data-theme="dark"] .post article blockquote,
+html[data-theme="dark"] .post article .clearfix blockquote,
+html[data-theme="dark"] .layout-about .post article blockquote {
   background: #3b2b27 !important;
 }
 

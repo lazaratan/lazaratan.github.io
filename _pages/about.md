@@ -28,9 +28,9 @@ repositories: false # hides the software packages/github section
 
 # The <span class="lab-name-accent">Atanackovic</span> Lab
 
-Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko)! **We are a multidisciplinary research group with the ultimate goal of engineering biology with AI.** To achieve this goal, we develop machine learning methods to understand and model natural (physical) systems from data, with a strong focus on cellular🧫 and molecular🧬 systems. 
+Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko)! **We are a multidisciplinary research group with the ultimate goal of engineering biology with AI.** To achieve this goal, we develop machine learning methods to understand and model natural (physical) systems from data, with a strong focus on cellular 🧫 and molecular 🧬 systems. 
 
-Our research spans machine learning, generative modeling, causality, systems biology, single-cell biology, and protein & molecule design. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI. You can find our latest work and a full list of publications on [Google Scholar](https://scholar.google.com/citations?user=qhTWIh4AAAAJ).
+Our research spans machine learning, generative modeling, causality, systems biology, single-cell biology, protein & molecule design, and more. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI. You can find our latest work and a full list of publications on [Google Scholar](https://scholar.google.com/citations?user=qhTWIh4AAAAJ).
 
 > 🔬 <span class="lab-name-accent">Interested in joining our lab</span>? Please fill out our [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSf_mLo5BbgXH81TEh5zgdaU1lPTmWVnj7bwR1-HOe89muh7LQ/viewform). 
 

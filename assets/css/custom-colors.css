@@ -25,17 +25,22 @@ html[data-theme="dark"] {
 }
 
 body {
-  font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+  font-family: 'IBM Plex Mono', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
   letter-spacing: 0.01em;
   line-height: 1.7;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+  font-family: 'IBM Plex Mono', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
   letter-spacing: 0.02em;
 }
 code, pre, kbd, samp {
   font-family: 'IBM Plex Mono', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace !important;
   font-size: 0.97em;
+}
+
+strong,
+b {
+  font-weight: 700 !important;
 }
 
 /* Standard markdown quote blocks (lines beginning with ">") */

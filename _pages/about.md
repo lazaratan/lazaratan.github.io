@@ -29,6 +29,6 @@ Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [Univ
 
 Our research spans machine learning, generative modeling, causality, systems biology, single-cell biology, and protein & molecule design. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI.
 
-> <span class="lab-name-accent">Interested in joining our lab</span>? Fill out this [Application Form](https://docs.google.com/forms/d/1Z3IiinIqRZ42OYLfuDCDeF7Upt7Gthb4ysLLzLee1Tk/edit)! 
+> <span class="lab-name-accent">Interested in joining our lab</span>? Fill out this [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSf_mLo5BbgXH81TEh5zgdaU1lPTmWVnj7bwR1-HOe89muh7LQ/viewform)! 
 
 Have questions or want to collaborate? [Contact us](/about/).

@@ -16,6 +16,8 @@ permalink: /
 
 # Explore our [Research](/research/) areas and learn how to [Join Us](/join/) for opportunities at the intersection of machine learning and biology.
 
+# Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko)! **We are a multidisciplinary research group with the ultimate goal to engineer biology with AI.** We developing machine learning methods for understanding and modeling natural (physical) systems from data, with an emphasis on cellular and molecular systems.** 
+
 social: true # includes social icons at the bottom of the page
 news: false # hides the list of news items on the home page
 latest_posts: false # includes a list of the newest posts
@@ -26,7 +28,7 @@ repositories: false # hides the software packages/github section
 
 # The <span class="lab-name-accent">Atanackovic</span> Lab
 
-Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko)! **We are a research group focused on developing cutting-edge machine learning methods for understanding and modeling natural (physical) systems from data, with an emphasis on cellular and molecular systems.**
+Welcome to the <span class="lab-name-accent">Atanackovic</span> Lab at the [University of Alberta](https://apps.ualberta.ca/directory/person/atanacko)! **We are a multidisciplinary research group with the ultimate goal of engineering biology with AI.** To achieve this goal, we develop machine learning methods to understand and model natural (physical) systems from data, with a strong focus on :petri_dish: cellular and :dna: molecular systems. 
 
 Our research spans machine learning, generative modeling, causality, systems biology, single-cell biology, and protein & molecule design. We combine theoretical advances with practical applications to push the boundaries of what's possible in computational biology and AI. You can find our latest work and a full list of publications on [Google Scholar](https://scholar.google.com/citations?user=qhTWIh4AAAAJ).
 

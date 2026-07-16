@@ -33,4 +33,4 @@ Stay updated with our latest research, publications, and lab activities through 
 </div>
 
 ### For Prospective Students
-If you're interested in joining our lab, please check out our [Join Us](/join/) page for detailed information.
+If you're interested in joining our lab, please fill out this [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSf_mLo5BbgXH81TEh5zgdaU1lPTmWVnj7bwR1-HOe89muh7LQ/viewform)!

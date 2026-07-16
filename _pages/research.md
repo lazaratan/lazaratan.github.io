@@ -31,4 +31,4 @@ We develop computational methods that help us decode and understand complex biol
 
 ---
 
-**Interested in our research?** Check out our [publications](/publications/) or learn how to [join our lab](/join/)! 
+**Interested in our research?** Check out our [publications](/publications/) or fill out this [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSf_mLo5BbgXH81TEh5zgdaU1lPTmWVnj7bwR1-HOe89muh7LQ/viewform)!
